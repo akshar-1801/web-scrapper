@@ -8,16 +8,18 @@ import plotly.express as px
 db_connection_str = 'postgresql://user:password@postgres:5432/prices_db'
 db_connection = create_engine(db_connection_str)
 
-st.title("📚 Live Price Tracker Dashboard")
-st.markdown("Monitoring prices from **Books to Scrape**")
+st.title("💊 Live Tata 1mg Price Tracker Dashboard")
+st.markdown("Monitoring prices from **Tata 1mg**")
 
 # 2. Load Data
 try:
-    # NEW QUERY (Shows only the latest price for each book)
+    # NEW QUERY (Shows only the latest price for each product)
     query = """
     SELECT DISTINCT ON (p.name) 
         p.name, 
         p.url, 
+        p.pack_size,
+        p.rating,
         h.price, 
         h.scraped_at
     FROM products p
@@ -28,14 +30,14 @@ try:
     
     # 3. KPI Metrics
     col1, col2, col3 = st.columns(3)
-    col1.metric("Total Books Tracked", len(df['url'].unique()))
-    col2.metric("Average Price", f"£{df['price'].mean():.2f}")
-    col3.metric("Most Expensive", f"£{df['price'].max()}")
+    col1.metric("Total Products Tracked", len(df['url'].unique()))
+    col2.metric("Average Price", f"₹{df['price'].mean():.2f}")
+    col3.metric("Most Expensive", f"₹{df['price'].max()}")
 
-    # 4. Visualization: Top 10 Most Expensive Books
-    st.subheader("💰 Top 10 Most Expensive Books")
-    top_books = df.nlargest(10, 'price')
-    fig = px.bar(top_books, x='name', y='price', title="Price Distribution", color='price')
+    # 4. Visualization: Top 10 Most Expensive Products
+    st.subheader("💰 Top 10 Most Expensive Products")
+    top_products = df.nlargest(10, 'price')
+    fig = px.bar(top_products, x='name', y='price', title="Price Distribution", color='price')
     st.plotly_chart(fig)
 
     # 5. Raw Data Table

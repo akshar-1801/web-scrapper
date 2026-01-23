@@ -19,7 +19,7 @@ ADDONS = {}
 #USER_AGENT = "price_tracker (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Concurrency and throttling settings
 #CONCURRENT_REQUESTS = 16
@@ -64,6 +64,18 @@ ITEM_PIPELINES = {
    "price_tracker.pipelines.MinioPipeline": 200,
    # Priority 300 runs SECOND (Save to DB)
    "price_tracker.pipelines.PostgresPipeline": 300,
+}
+
+# ENABLE PLAYWRIGHT
+DOWNLOAD_HANDLERS = {
+    "http": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+    "https": "scrapy_playwright.handler.ScrapyPlaywrightDownloadHandler",
+}
+
+# Tell it to launch headless (invisible)
+PLAYWRIGHT_LAUNCH_OPTIONS = {
+    "headless": True,
+    "timeout": 20 * 1000,  # 20 seconds
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

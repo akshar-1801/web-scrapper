@@ -1,0 +1,739 @@
+2026-01-24 00:16:44 [scrapy.utils.log] INFO: Scrapy 2.14.1 started (bot: price_tracker)
+2026-01-24 00:16:44 [scrapy.utils.log] INFO: Versions:
+{'lxml': '6.0.2',
+ 'libxml2': '2.11.9',
+ 'cssselect': '1.3.0',
+ 'parsel': '1.10.0',
+ 'w3lib': '2.3.1',
+ 'Twisted': '25.5.0',
+ 'Python': '3.13.1 (tags/v3.13.1:0671451, Dec  3 2024, 19:06:28) [MSC v.1942 '
+           '64 bit (AMD64)]',
+ 'pyOpenSSL': '25.3.0 (OpenSSL 3.5.4 30 Sep 2025)',
+ 'cryptography': '46.0.3',
+ 'Platform': 'Windows-11-10.0.26200-SP0'}
+2026-01-24 00:16:44 [scrapy.crawler] DEBUG: Using AsyncCrawlerProcess
+2026-01-24 00:16:44 [asyncio] DEBUG: Using selector: SelectSelector
+2026-01-24 00:16:44 [scrapy.addons] INFO: Enabled addons:
+[]
+2026-01-24 00:16:44 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.asyncioreactor.AsyncioSelectorReactor
+2026-01-24 00:16:44 [scrapy.utils.log] DEBUG: Using asyncio event loop: asyncio.windows_events._WindowsSelectorEventLoop
+2026-01-24 00:16:44 [scrapy.extensions.telnet] INFO: Telnet Password: 14bb4fdf9146266c
+2026-01-24 00:16:44 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.logcount.LogCount',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.closespider.CloseSpider',
+ 'scrapy.extensions.feedexport.FeedExporter',
+ 'scrapy.extensions.logstats.LogStats']
+2026-01-24 00:16:44 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'price_tracker',
+ 'CLOSESPIDER_PAGECOUNT': '1',
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 1,
+ 'COOKIES_ENABLED': False,
+ 'DOWNLOAD_DELAY': 2,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'NEWSPIDER_MODULE': 'price_tracker.spiders',
+ 'SPIDER_MODULES': ['price_tracker.spiders'],
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'}
+2026-01-24 00:16:45 [asyncio] DEBUG: Using proactor: IocpProactor
+2026-01-24 00:16:45 [scrapy-playwright] INFO: Started loop on separate thread: <ProactorEventLoop running=True closed=False debug=False>
+2026-01-24 00:16:45 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2026-01-24 00:16:45 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.start.StartSpiderMiddleware',
+ 'scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2026-01-24 00:16:45 [scrapy.middleware] INFO: Enabled item pipelines:
+[]
+2026-01-24 00:16:45 [scrapy.core.engine] INFO: Spider opened
+2026-01-24 00:16:45 [py.warnings] WARNING: C:\Users\AK\AppData\Roaming\Python\Python313\site-packages\scrapy\core\spidermw.py:490: ScrapyDeprecationWarning: price_tracker.spiders.tata_1mg.Tata1mgSpider defines the deprecated start_requests() method. start_requests() has been deprecated in favor of a new method, start(), to support asynchronous code execution. start_requests() will stop being called in a future version of Scrapy. If you use Scrapy 2.13 or higher only, replace start_requests() with start(); note that start() is a coroutine (async def). If you need to maintain compatibility with lower Scrapy versions, when overriding start_requests() in a spider class, override start() as well; you can use super() to reuse the inherited start() implementation without copy-pasting. See the release notes of Scrapy 2.13 for details: https://docs.scrapy.org/en/2.13/news.html
+  warn(
+
+2026-01-24 00:16:45 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2026-01-24 00:16:45 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2026-01-24 00:16:45 [scrapy-playwright] INFO: Starting download handler
+2026-01-24 00:16:45 [scrapy-playwright] INFO: Starting download handler
+2026-01-24 00:16:46 [scrapy-playwright] INFO: Launching browser chromium
+2026-01-24 00:16:46 [scrapy-playwright] INFO: Browser chromium launched
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: Browser context started: 'default' (persistent=False, remote=False)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] New page created, page count is 1 (1 for all contexts)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.1mg.com/categories/nutritional-drinks-196> (resource type: document)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.1mg.com/categories/nutritional-drinks-196>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/location_18px_grey.svg> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/gps_24px_primary.svg> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/13cd7071-ba7d-471b-bc57-4c2e2d3b9c78_1731060965.jpg> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/runtime.f22a60ec58abfea63464.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/commonVendor.70e22d508cc3f76db8c4.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.index.mjs.d300ea98c37f30f22574.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.immer.mjs.9f49f1f0ebe5f1471067.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.redux-toolkit.modern.mjs.927a85e7f9fafcfec9d6.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.purify.cjs.js.f7c82205f7ab8af3b6ca.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.react.js.47da255a1a4c1291e35c.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.router.js.319d1c1b7180096ca2f1.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/6374.5ddd3b89973e968a771e.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/app.57ac369f11d2d7d50c6b.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/8818.41f10746f7952c9ed9e1.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/7145.e097feabb4a3c24e7626.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/7443.cd1c7d3c0f10f62922ad.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/836.687c7df2ede25d61f71a.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/6784.cbdf0c523e94865893c4.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/7763.cdff052d24ce9840c81f.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/5630.8e13d91b6ffc77b75a2e.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/pages-CategoryPage-CategoryPage.a95d9cee7eaca5a073f8.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/search_18.svg> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-09%2F1725421768_CategoryTopPicks_Selected.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/2025-05%2F1747115899_2025-03_1741594253_Women%2Bnutrition%2Bunselected%2B%281%29.avif> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246376_Green+Tea+%26+Herbal+Tea-1.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246052_Adult+daily+nutrition-1.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/2025-09%2F1758260405_Kids+Nutrition-2.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1721977874_Apple+cider+vinegar-1.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246261_Specialized+Nutrition-1.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://accounts.tatadigital.com/v2/tdl-sso-auth.js> (resource type: script)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246344_Green+Coffee-1.png> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron_left_18px.svg> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron_right_24px.svg> (resource type: image)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Figtree-Variable.woff2> (resource type: font, referrer: https://www.1mg.com/)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-Regular-Subset.woff2> (resource type: font, referrer: https://www.1mg.com/)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-SemiBold-Subset.woff2> (resource type: font, referrer: https://www.1mg.com/)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-Medium-Subset.woff2> (resource type: font, referrer: https://www.1mg.com/)
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/gps_24px_primary.svg>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/location_18px_grey.svg>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/runtime.f22a60ec58abfea63464.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.immer.mjs.9f49f1f0ebe5f1471067.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.redux-toolkit.modern.mjs.927a85e7f9fafcfec9d6.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.purify.cjs.js.f7c82205f7ab8af3b6ca.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.router.js.319d1c1b7180096ca2f1.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.index.mjs.d300ea98c37f30f22574.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/6374.5ddd3b89973e968a771e.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/npm.react.js.47da255a1a4c1291e35c.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/8818.41f10746f7952c9ed9e1.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/7145.e097feabb4a3c24e7626.js>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron_right_24px.svg>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-09%2F1725421768_CategoryTopPicks_Selected.png>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/13cd7071-ba7d-471b-bc57-4c2e2d3b9c78_1731060965.jpg>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246376_Green+Tea+%26+Herbal+Tea-1.png>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/search_18.svg>
+2026-01-24 00:16:46 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/7443.cd1c7d3c0f10f62922ad.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/app.57ac369f11d2d7d50c6b.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/commonVendor.70e22d508cc3f76db8c4.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron_left_18px.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/2025-05%2F1747115899_2025-03_1741594253_Women%2Bnutrition%2Bunselected%2B%281%29.avif>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246052_Adult+daily+nutrition-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246344_Green+Coffee-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246261_Specialized+Nutrition-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/2025-09%2F1758260405_Kids+Nutrition-2.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1721977874_Apple+cider+vinegar-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-Medium-Subset.woff2>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/6784.cbdf0c523e94865893c4.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/5630.8e13d91b6ffc77b75a2e.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/836.687c7df2ede25d61f71a.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/7763.cdff052d24ce9840c81f.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/pages-CategoryPage-CategoryPage.a95d9cee7eaca5a073f8.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-SemiBold-Subset.woff2>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-Regular-Subset.woff2>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Figtree-Variable.woff2>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/v3/modern/rsa.min.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://browser.sentry-cdn.com/6.19.4/bundle.tracing.min.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtm.js?id=GTM-KR9MB8> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/ns.html?id=GTM-KR9MB8> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://connect.facebook.net/en_US/fbevents.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.1mg.com/pwa-api/api/v5/cities> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.1mg.com/pwa-api/api/v4/udp_tree> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.1mg.com/pwa-api/api/v4/carts/details?types=pharmacy&response_type=brief&cart_oos=true> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.1mg.com/pwa-api/api/v4/city-serviceable?city=New%20Delhi> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.1mg.com/pwa-api/api/v4/footer-data> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://www.1mg.com/cdn-cgi/rum?> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/location_18px_grey.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/gps_24px_primary.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/search_18.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-09%2F1725421768_CategoryTopPicks_Selected.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/2025-05%2F1747115899_2025-03_1741594253_Women%2Bnutrition%2Bunselected%2B%281%29.avif> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246376_Green+Tea+%26+Herbal+Tea-1.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246052_Adult+daily+nutrition-1.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/2025-09%2F1758260405_Kids+Nutrition-2.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1721977874_Apple+cider+vinegar-1.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246261_Specialized+Nutrition-1.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246344_Green+Coffee-1.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/13cd7071-ba7d-471b-bc57-4c2e2d3b9c78_1731060965.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://browser.sentry-cdn.com/6.19.4/bundle.tracing.min.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/1mg_logo_header.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/cart.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/quick_buy_rebrand_lqpnce.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/right_chevron_20px.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/image/upload/v1630480707/yjl81qjaxwvgdmcm77tk.jpg?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/image/upload/v1657883294/xdsqamitrvmz1dvmbkwt.png?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/a8277b59-6c67-4392-a445-68273fe3d9fa.png?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-06%2F1718702457_04f109bb-b0ca-4c5b-9a73-233378d33633.webp?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/beffbruxb8ewnwnzwnhh.png?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/ugxftxuzqvhm5qqp0v7i.png?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/frohuvluhqumpgblxxgu.jpg?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-04%2F1713434177_Fast+%26+Up.jpg?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/diagnostics%2F2024-04%2F1713434185_TATA+1mg.png?format=auto> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/a8a35785d6eb40bf8dabadbc4d3b2cc7.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ghjyb8qwiilac2laqxlk.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f426ab11603844ca99727ddd0a187666.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/cfd87fdb-d38f-486f-ac67-4ca076bc5e51.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/049fe94dbdfc4b9796a13c2b10b47c69.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/65267ba6290742dca5a107f810c53285.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/6f2f500445be42849dcbd576e83f7046.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f87c6f346c8442ee941b4e31f0ceba63.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/9ed63cb6f7094fa2b0ddac40805ff73a.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/cross_24px_primary.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/v3/modern/rsa.min.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <204 https://www.1mg.com/cdn-cgi/rum?>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://api.rudderstack.com/sourceConfig/?p=cdn&v=3.28.1&build=modern&writeKey=1Xw0r3h5UkJhTd7i4MyWYyjDQFZ&lockIntegrationsVersion=true&lockPluginsVersion=true> (resource type: xhr)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.1mg.com/pwa-api/api/v5/cities>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/gps_24px_primary.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/location_18px_grey.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.1mg.com/pwa-api/api/v4/city-serviceable?city=New%20Delhi>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.1mg.com/pwa-api/api/v4/footer-data>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/2025-05%2F1747115899_2025-03_1741594253_Women%2Bnutrition%2Bunselected%2B%281%29.avif>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/2025-09%2F1758260405_Kids+Nutrition-2.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246052_Adult+daily+nutrition-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1721977874_Apple+cider+vinegar-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246261_Specialized+Nutrition-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/search_18.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246344_Green+Coffee-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-09%2F1725421768_CategoryTopPicks_Selected.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246376_Green+Tea+%26+Herbal+Tea-1.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/1mg_logo_header.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/cart.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/13cd7071-ba7d-471b-bc57-4c2e2d3b9c78_1731060965.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/quick_buy_rebrand_lqpnce.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ghjyb8qwiilac2laqxlk.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.1mg.com/pwa-api/api/v4/udp_tree>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://connect.facebook.net/en_US/fbevents.js>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.1mg.com/pwa-api/api/v4/carts/details?types=pharmacy&response_type=brief&cart_oos=true>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-Bold-Subset.woff2> (resource type: font, referrer: https://www.1mg.com/)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron-down_18px_primary.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/image/upload/v1630480707/yjl81qjaxwvgdmcm77tk.jpg?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f426ab11603844ca99727ddd0a187666.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/cfd87fdb-d38f-486f-ac67-4ca076bc5e51.png>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/image/upload/v1657883294/xdsqamitrvmz1dvmbkwt.png?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/049fe94dbdfc4b9796a13c2b10b47c69.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/right_chevron_20px.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/a8277b59-6c67-4392-a445-68273fe3d9fa.png?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-06%2F1718702457_04f109bb-b0ca-4c5b-9a73-233378d33633.webp?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/beffbruxb8ewnwnzwnhh.png?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/6f2f500445be42849dcbd576e83f7046.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/65267ba6290742dca5a107f810c53285.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f87c6f346c8442ee941b4e31f0ceba63.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/ugxftxuzqvhm5qqp0v7i.png?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/cross_24px_primary.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/9ed63cb6f7094fa2b0ddac40805ff73a.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/frohuvluhqumpgblxxgu.jpg?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-04%2F1713434177_Fast+%26+Up.jpg?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/diagnostics%2F2024-04%2F1713434185_TATA+1mg.png?format=auto>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/a8a35785d6eb40bf8dabadbc4d3b2cc7.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/fonts/Poppins-Bold-Subset.woff2>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron-down_18px_primary.svg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/1bf4e99b120b43088cc0f6197777382f.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/b8dda3b943024aa794b67dae00c804b4.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f9c28bf5-2334-4669-82fb-2fa01a9d00b4.jpeg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/7b21d40db57041bab5ae3ffa79e6e938.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/30ac43be4f484b0480955173765b7949.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/z0cnyocu1o2r83kdmuzt.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/uv3wagnasob4pv7o5uh9.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hh3f6u4nsavv4kfmydgw.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/caca78ff10b84582adf44667a35e2cf2.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dadf7ad1bd99443eaaffce094adabefe.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/74cdd160415a49ea8fab8ddeebcb9c3a.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/b142b81381d44efebb7004a7df4018b6.jpg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f9c28bf5-2334-4669-82fb-2fa01a9d00b4.jpeg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/1bf4e99b120b43088cc0f6197777382f.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/b8dda3b943024aa794b67dae00c804b4.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/7b21d40db57041bab5ae3ffa79e6e938.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtm.js?id=GTM-KR9MB8>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://api.rudderstack.com/sourceConfig/?p=cdn&v=3.28.1&build=modern&writeKey=1Xw0r3h5UkJhTd7i4MyWYyjDQFZ&lockIntegrationsVersion=true&lockPluginsVersion=true>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&scrsrc=www.googletagmanager.com&rnd=976389876.1769194008&dt=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&auid=528183863.1769194008&navt=n&npa=0&gtm=45He61m1h2v6472178za200zd6472178xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938466~115938469~116682876~117025848~117041588~117042505&tft=1769194007845&tfd=1544&apve=1&apvf=f> (resource type: fetch)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/destination?id=AW-882349284&cx=c&gtm=4e61m1h2> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://web-sdk-cdn.singular.net/singular-gtm-interface/latest/singular-gtm-interface.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://s.adroll.com/j/roundtrip.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://tags.creativecdn.com/UXVDxjkzyjivJA3pPnzU.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://bat.bing.com/bat.js> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://connect.facebook.net/signals/config/1533315340292439?v=2.9.252&r=stable&domain=www.1mg.com&hme=a2b1dd5145ee207019b7695e2ee204e1fa99fb97d553ed7ee626f2311efba0c0&ex_m=95%2C157%2C135%2C20%2C67%2C68%2C128%2C63%2C42%2C129%2C72%2C62%2C10%2C142%2C81%2C15%2C94%2C123%2C116%2C70%2C73%2C122%2C139%2C103%2C144%2C7%2C3%2C4%2C6%2C5%2C2%2C82%2C92%2C145%2C225%2C169%2C56%2C227%2C228%2C49%2C184%2C27%2C69%2C233%2C232%2C172%2C29%2C55%2C9%2C58%2C88%2C89%2C90%2C96%2C119%2C28%2C26%2C121%2C118%2C117%2C136%2C71%2C138%2C137%2C44%2C54%2C112%2C14%2C141%2C39%2C214%2C216%2C179%2C23%2C24%2C25%2C17%2C18%2C38%2C34%2C36%2C35%2C77%2C83%2C87%2C101%2C127%2C130%2C40%2C102%2C21%2C19%2C108%2C64%2C32%2C132%2C131%2C133%2C124%2C22%2C31%2C53%2C100%2C140%2C65%2C16%2C134%2C105%2C76%2C61%2C30%2C194%2C164%2C284%2C212%2C155%2C197%2C190%2C165%2C98%2C120%2C75%2C110%2C48%2C41%2C43%2C104%2C109%2C115%2C52%2C59%2C114%2C47%2C50%2C46%2C91%2C143%2C0%2C113%2C13%2C111%2C11%2C1%2C51%2C84%2C57%2C60%2C107%2C80%2C79%2C146%2C147%2C85%2C86%2C8%2C93%2C45%2C125%2C78%2C74%2C66%2C106%2C97%2C37%2C126%2C33%2C99%2C12%2C148> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://dynamic.criteo.com/js/ld/ld.js?a=51601> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/z0cnyocu1o2r83kdmuzt.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hh3f6u4nsavv4kfmydgw.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/caca78ff10b84582adf44667a35e2cf2.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/uv3wagnasob4pv7o5uh9.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dadf7ad1bd99443eaaffce094adabefe.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/b142b81381d44efebb7004a7df4018b6.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/74cdd160415a49ea8fab8ddeebcb9c3a.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/30ac43be4f484b0480955173765b7949.jpg>
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/destination?id=DC-14719398&cx=c&gtm=4e61m1h2> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/gtag/destination?id=DC-15696623&cx=c&gtm=4e61m1h2> (resource type: script)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.googletagmanager.com/static/service_worker/61k0/sw_iframe.html?origin=https%3A%2F%2Fwww.1mg.com> (resource type: document)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/07af9c04-2a7b-4a0f-95d3-ad0b74d44963.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/ecf1819b-3adb-4135-ab2d-ac3cf464409d.svg> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/a34b1a24-eede-43c1-9056-04bcca95a15e.png> (resource type: image)
+2026-01-24 00:16:47 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/a84eb380-c01a-44ef-836d-60601ea087a4.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/4963ea59-21df-4b29-9fc2-6c1681a32cbc.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/cfad51bd-c9d2-4e05-bebf-33915893e56c.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/403d7adb-bff2-4672-9287-f38b53049a06.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/2cdee92f-ecb1-469d-b704-6261d59db156.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/0a39982b-50f1-4e89-93a7-b7e9d4c9181b.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/d3e7c5fa-d54f-4e36-a818-dafabba7aeb3.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/5199c42e-3467-480e-a814-9945ea3469f7.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/ada4ca65-813a-4d24-a34a-d2954f418490.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/4ea869bc-0984-4bc1-b078-3d3423d5c082.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/8aa03d04-5542-4fc6-81cd-90dfb9b7cba0.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/assets/a087f7b0-f1fb-47bb-acad-2b8802a9e338.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/iso_certification_03_07_2024.jpg> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron_down_new.svg> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/4f6b7b34-8e8b-4bf9-bac4-b8aa82612845.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/77252989-2d9f-4d52-9c53-b7461c33f904.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/35402929-ea8c-487b-a6c1-d1185ae50736.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/ce684a1b-28bd-4d32-8534-65a50083ff6f.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/6c0a1f30-9aa0-445f-b9d1-7b6a22ba7250.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/a7335b2a-2b8c-4669-929e-34f13a39082d.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/7dfea645-d40b-4493-a9ab-4481743dd36f.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/1a9948db-43d6-499c-aa59-9d2cad99e0d9.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/7cd2f0ba-6ed2-4052-b877-a8a9adfd4085.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/5bb70602-8bda-41e2-9270-4c0178061add.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/0ecc03b3-d87f-4187-bb70-767bd5ba4bef.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://onemg.gumlet.io/marketing/14de3cab-a461-4824-a3b2-8a582f124ed6.png> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/static/service_worker/61k0/sw_iframe.html?origin=https%3A%2F%2Fwww.1mg.com>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-NativeDestinationQueue.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-DeviceModeDestinations.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-XhrQueue.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-StorageEncryptionLegacy.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/07af9c04-2a7b-4a0f-95d3-ad0b74d44963.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/ecf1819b-3adb-4135-ab2d-ac3cf464409d.svg>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/a34b1a24-eede-43c1-9056-04bcca95a15e.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/a84eb380-c01a-44ef-836d-60601ea087a4.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://s.adroll.com/j/roundtrip.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://s.adroll.com/j/pre/U4ZFS2QH4VB65A54O43AEQ/6PFMKMAZXFGFLMSXPCJHFF/fpconsent.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://s.adroll.com/j/pre/U4ZFS2QH4VB65A54O43AEQ/6PFMKMAZXFGFLMSXPCJHFF/index.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://web-sdk-cdn.singular.net/singular-gtm-interface/latest/singular-gtm-interface.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/4963ea59-21df-4b29-9fc2-6c1681a32cbc.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/403d7adb-bff2-4672-9287-f38b53049a06.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/0a39982b-50f1-4e89-93a7-b7e9d4c9181b.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/d3e7c5fa-d54f-4e36-a818-dafabba7aeb3.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/2cdee92f-ecb1-469d-b704-6261d59db156.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.google.com/ccm/collect?frm=0&en=page_view&dl=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&scrsrc=www.googletagmanager.com&rnd=976389876.1769194008&dt=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&auid=528183863.1769194008&navt=n&npa=0&gtm=45He61m1h2v6472178za200zd6472178xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=103116026~103200004~104527906~104528501~104684208~104684211~105391252~115938466~115938469~116682876~117025848~117041588~117042505&tft=1769194007845&tfd=1544&apve=1&apvf=f>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://web-sdk-cdn.singular.net/singular-sdk/latest/singular-sdk.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/cfad51bd-c9d2-4e05-bebf-33915893e56c.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://assets.1mg.com/pwa-app/production/dweb/2.0.3/static/images/svgs/icons/chevron_down_new.svg>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/1a9948db-43d6-499c-aa59-9d2cad99e0d9.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://s.adroll.com/j/pre/U4ZFS2QH4VB65A54O43AEQ/6PFMKMAZXFGFLMSXPCJHFF/fpconsent.js> (location: https://s.adroll.com/j/pre/index.js)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://d.adroll.com/consent/check/U4ZFS2QH4VB65A54O43AEQ?pv=10806327673.67136&arrfrr=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&_s=8bf847283b91f8f483ba09fc5fb9bda0&_b=2> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/35402929-ea8c-487b-a6c1-d1185ae50736.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-StorageEncryptionLegacy.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-legacyEncryptionUtils.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-XhrQueue.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-DeviceModeDestinations.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-common.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-RetryQueue.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-deviceModeDestinations.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://web-sdk-cdn.singular.net/singular-sdk/latest/singular-sdk.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/5bb70602-8bda-41e2-9270-4c0178061add.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/7cd2f0ba-6ed2-4052-b877-a8a9adfd4085.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/0ecc03b3-d87f-4187-bb70-767bd5ba4bef.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/14de3cab-a461-4824-a3b2-8a582f124ed6.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/5199c42e-3467-480e-a814-9945ea3469f7.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/iso_certification_03_07_2024.jpg>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/ada4ca65-813a-4d24-a34a-d2954f418490.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/a087f7b0-f1fb-47bb-acad-2b8802a9e338.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/8aa03d04-5542-4fc6-81cd-90dfb9b7cba0.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/assets/4ea869bc-0984-4bc1-b078-3d3423d5c082.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/77252989-2d9f-4d52-9c53-b7461c33f904.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/4f6b7b34-8e8b-4bf9-bac4-b8aa82612845.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/7dfea645-d40b-4493-a9ab-4481743dd36f.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/6c0a1f30-9aa0-445f-b9d1-7b6a22ba7250.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/a7335b2a-2b8c-4669-929e-34f13a39082d.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://onemg.gumlet.io/marketing/ce684a1b-28bd-4d32-8534-65a50083ff6f.png>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://s.adroll.com/j/pre/U4ZFS2QH4VB65A54O43AEQ/6PFMKMAZXFGFLMSXPCJHFF/index.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-remote-NativeDestinationQueue.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://dynamic.criteo.com/js/ld/ld.js?a=51601>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://bat.bing.com/bat.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://s.adroll.com/j/pre/index.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/destination?id=AW-882349284&cx=c&gtm=4e61m1h2>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://sdk-api-v1.singular.net/api/v1/event?current_device_time=1769194008&event_id=c97a12ce-5680-4142-acd6-38dbd434edf5&conversion_event=true&k=SDID&a=ikshit&p=Web&i=www.1mg.com&screen_height=720&screen_width=1280&sdk=WebSDK-v1.4.8&singular_instance_id=243ac587-5e7e-4d59-9d26-888c809e2fbe&sdid=729e91c3-91f1-4598-8dd6-b8876d374b7a&storage_type=local&timezone=GMT%2B0530&touchpoint_timestamp=1769194008&u=729e91c3-91f1-4598-8dd6-b8876d374b7a&n=__PAGE_VISIT__&is_revenue_event=false&first=true&is_after_conversion_event=false&s=429b1aad-89ba-40de-8759-0f47000cf6bb&is_first_visit=true&is_page_refreshed=false&sdid_persist_mode=off&is_first_page_visit_in_session=true&ecid=729e91c3-91f1-4598-8dd6-b8876d374b7a&os=Windows&lag=0&h=4233bba647ec569e34d266935b21054360045017> (resource type: xhr)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-deviceModeDestinations.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-legacyEncryptionUtils.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-RetryQueue.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/plugins/rsa-plugins-common.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/destination?id=DC-14719398&cx=c&gtm=4e61m1h2>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://s.adroll.com/j/pre/index.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://www.googletagmanager.com/gtag/destination?id=DC-15696623&cx=c&gtm=4e61m1h2>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://gumi.criteo.com/syncframe?topUrl=www.1mg.com&origin=onetag> (resource type: document)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://rudderapi.1mg.com/v1/page> (resource type: xhr)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://rudderapi.1mg.com/v1/track> (resource type: xhr)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://cdn.rudderlabs.com/3.28.1/modern/js-integrations/Fullstory.min.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://bat.bing.com/p/action/5268488.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://connect.facebook.net/signals/config/1533315340292439?v=2.9.252&r=stable&domain=www.1mg.com&hme=a2b1dd5145ee207019b7695e2ee204e1fa99fb97d553ed7ee626f2311efba0c0&ex_m=95%2C157%2C135%2C20%2C67%2C68%2C128%2C63%2C42%2C129%2C72%2C62%2C10%2C142%2C81%2C15%2C94%2C123%2C116%2C70%2C73%2C122%2C139%2C103%2C144%2C7%2C3%2C4%2C6%2C5%2C2%2C82%2C92%2C145%2C225%2C169%2C56%2C227%2C228%2C49%2C184%2C27%2C69%2C233%2C232%2C172%2C29%2C55%2C9%2C58%2C88%2C89%2C90%2C96%2C119%2C28%2C26%2C121%2C118%2C117%2C136%2C71%2C138%2C137%2C44%2C54%2C112%2C14%2C141%2C39%2C214%2C216%2C179%2C23%2C24%2C25%2C17%2C18%2C38%2C34%2C36%2C35%2C77%2C83%2C87%2C101%2C127%2C130%2C40%2C102%2C21%2C19%2C108%2C64%2C32%2C132%2C131%2C133%2C124%2C22%2C31%2C53%2C100%2C140%2C65%2C16%2C134%2C105%2C76%2C61%2C30%2C194%2C164%2C284%2C212%2C155%2C197%2C190%2C165%2C98%2C120%2C75%2C110%2C48%2C41%2C43%2C104%2C109%2C115%2C52%2C59%2C114%2C47%2C50%2C46%2C91%2C143%2C0%2C113%2C13%2C111%2C11%2C1%2C51%2C84%2C57%2C60%2C107%2C80%2C79%2C146%2C147%2C85%2C86%2C8%2C93%2C45%2C125%2C78%2C74%2C66%2C106%2C97%2C37%2C126%2C33%2C99%2C12%2C148>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://cdn.rudderlabs.com/3.28.1/modern/js-integrations/Fullstory.min.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://edge.fullstory.com/s/fs.js> (resource type: script)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://bat.bing.com/p/action/5268488.js>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://bat.bing.com/action/0?ti=5268488&tm=gtm002&Ver=2&mid=4085261e-4652-4b67-97f2-43845f762369&bo=1&sid=dfc34eb0f88b11f0936ca39895ad83cf&vid=dfc370c0f88b11f0b873511154749663&vids=1&msclkid=N&uach=pv%3D19.0.0&pi=0&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&kw=Top%20Picks%20-%20Nutritional%20Drinks&p=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&r=&lt=906&evt=pageLoad&sv=2&cdb=AQoV&rn=113394> (resource type: image)
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <204 https://bat.bing.com/action/0?ti=5268488&tm=gtm002&Ver=2&mid=4085261e-4652-4b67-97f2-43845f762369&bo=1&sid=dfc34eb0f88b11f0936ca39895ad83cf&vid=dfc370c0f88b11f0b873511154749663&vids=1&msclkid=N&uach=pv%3D19.0.0&pi=0&lg=en-US&sw=1280&sh=720&sc=24&nwd=1&tl=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&kw=Top%20Picks%20-%20Nutritional%20Drinks&p=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&r=&lt=906&evt=pageLoad&sv=2&cdb=AQoV&rn=113394>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://rudderapi.1mg.com/v1/track>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://rudderapi.1mg.com/v1/page>
+2026-01-24 00:16:48 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://gumi.criteo.com/syncframe?topUrl=www.1mg.com&origin=onetag>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://gumi.criteo.com/sid/json?origin=onetag&domain=1mg.com&sn=ChromeSyncframe&so=undefined&topUrl=www.1mg.com> (resource type: fetch, referrer: https://gumi.criteo.com/syncframe?topUrl=www.1mg.com&origin=onetag)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://tags.creativecdn.com/UXVDxjkzyjivJA3pPnzU.js>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://edge.fullstory.com/s/fs.js>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://asia.creativecdn.com/tags/v2?type=json> (resource type: fetch, referrer: https://www.1mg.com/categories/nutritional-drinks-196)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://edge.fullstory.com/s/settings/11EGJ5/v1/web> (resource type: xhr)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://googleads.g.doubleclick.net/pagead/viewthroughconversion/882349284/?random=1769194008491&cv=11&fst=1769194008491&bg=ffffff&guid=ON&async=1&gtm=45be61m1h2v9209543294z86472178za20gzb6472178zd6472178xea&gcd=13l3l3l3l1l1&dma=0&tcfd=1000g&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~117025848~117041587~117042505~117099528&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&frm=0&tiba=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=528183863.1769194008&uaa=x86&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gpp_sid=-1&_tu=KA&rfmt=3&fmt=4> (resource type: script)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://ad.doubleclick.net/activity;src=14719398;type=invmedia;cat=tata100w;ord=2042751259487;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_nxEMeGbKTA04BmsdmPN_wh0KQQe5NBn0xg;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: fetch)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://14719398.fls.doubleclick.net/activityi;src=14719398;type=invmedia;cat=tata100w;ord=2042751259487;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_nxEMeGbKTA04BmsdmPN_wh0KQQe5NBn0xg;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://ad.doubleclick.net/activity;src=14719398;type=invmedia;cat=tata100p;ord=4408943854644;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_kJC7m0ApdGth_l0ZUGc1etk6zr9S5OgTNw;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: fetch)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://14719398.fls.doubleclick.net/activityi;src=14719398;type=invmedia;cat=tata100p;ord=4408943854644;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_kJC7m0ApdGth_l0ZUGc1etk6zr9S5OgTNw;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://ad.doubleclick.net/activity;src=15696623;type=tata10;cat=pharm00;ord=4217253212085;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_Os0WFpafgpPv0ZeKNiawvxi7B-bxCslyfA;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: fetch)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://15696623.fls.doubleclick.net/activityi;src=15696623;type=tata10;cat=pharm00;ord=4217253212085;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_Os0WFpafgpPv0ZeKNiawvxi7B-bxCslyfA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <POST https://ad.doubleclick.net/activity;src=15696623;type=tata10;cat=pharm002;ord=4138578478456;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=3;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_95tMGm_L8MEyxo3Cq7DeAic2GD8y2etuzA;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: fetch)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://15696623.fls.doubleclick.net/activityi;src=15696623;type=tata10;cat=pharm002;ord=4138578478456;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_95tMGm_L8MEyxo3Cq7DeAic2GD8y2etuzA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://d.adroll.com/consent/check/U4ZFS2QH4VB65A54O43AEQ?pv=10806327673.67136&arrfrr=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&_s=8bf847283b91f8f483ba09fc5fb9bda0&_b=2>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://d.adroll.com/pixel/U4ZFS2QH4VB65A54O43AEQ/6PFMKMAZXFGFLMSXPCJHFF?adroll_fpc=060d0f8b2395a2177b11938cef78e5ff-1769194009114&pv=10806327673.67136&arrfrr=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&cookie=&adroll_s_ref=&keyw=&p0=1391> (resource type: script)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://ipv4.d.adroll.com/px4/U4ZFS2QH4VB65A54O43AEQ/6PFMKMAZXFGFLMSXPCJHFF?adroll_fpc=060d0f8b2395a2177b11938cef78e5ff-1769194009114&pv=10806327673.67136&arrfrr=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&cookie=&adroll_s_ref=&keyw=&p0=1391> (resource type: image)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://gumi.criteo.com/sid/json?origin=onetag&domain=1mg.com&sn=ChromeSyncframe&so=undefined&topUrl=www.1mg.com> (location: https://mug.criteo.com/sid?cpp=u_fyvHx4YVY3MnA5RmRsOWpUcGwwNWpoR21rTG5lRS9IbkhHODhqTmpzWFVTS2V6YnNJZjBGZXUwa2RpMU5laFJwby96NDN1NzdLQUcwTnZkdnpTNjNuektLYVhFRXZXSStWYVVVUDBIc3lTLzR4WXI1bVM4MjBoUWFQYWpXUnBFekFlUmEwOWUzRzcyMmlxWnQ4OUlkMlQzdnNJUmdrdlRCYVNWVTJrcS91clhyRlhtd3pWZ1NyTVZXL2pLWHBoWVE2R2Yrbk5iSGRybWJja1Q4S2JvVS9aRjNIVXNmdmlmeTNFZ3FDR0dNWjNtNE8ybjRmdTFldkdGNEZUb2VnOFNkajhrc3BFY0FIMXhtdk44NGpiR3VBRzJ6KzlGYlRCblM3aWdkUkloNDNYaXRBND18&cppv=2)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://edge.fullstory.com/s/settings/11EGJ5/v1/web>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://googleads.g.doubleclick.net/pagead/viewthroughconversion/882349284/?random=1769194008491&cv=11&fst=1769194008491&bg=ffffff&guid=ON&async=1&gtm=45be61m1h2v9209543294z86472178za20gzb6472178zd6472178xea&gcd=13l3l3l3l1l1&dma=0&tcfd=1000g&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~117025848~117041587~117042505~117099528&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&frm=0&tiba=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=528183863.1769194008&uaa=x86&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gpp_sid=-1&_tu=KA&rfmt=3&fmt=4>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://15696623.fls.doubleclick.net/activityi;src=15696623;type=tata10;cat=pharm002;ord=4138578478456;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_95tMGm_L8MEyxo3Cq7DeAic2GD8y2etuzA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (location: https://15696623.fls.doubleclick.net/activityi;dc_pre=CI6wsqSpopIDFcnJPAIdbnEDGA;src=15696623;type=tata10;cat=pharm002;ord=4138578478456;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_95tMGm_L8MEyxo3Cq7DeAic2GD8y2etuzA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://14719398.fls.doubleclick.net/activityi;src=14719398;type=invmedia;cat=tata100p;ord=4408943854644;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_kJC7m0ApdGth_l0ZUGc1etk6zr9S5OgTNw;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (location: https://14719398.fls.doubleclick.net/activityi;dc_pre=CL21sqSpopIDFY8NgwMdXqwrVA;src=14719398;type=invmedia;cat=tata100p;ord=4408943854644;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_kJC7m0ApdGth_l0ZUGc1etk6zr9S5OgTNw;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.google.com/pagead/1p-user-list/882349284/?random=1769194008491&cv=11&fst=1769191200000&bg=ffffff&guid=ON&async=1&gtm=45be61m1h2v9209543294z86472178za20gzb6472178zd6472178xea&gcd=13l3l3l3l1l1&dma=0&tcfd=1000g&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~117025848~117041587~117042505~117099528&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&frm=0&tiba=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=528183863.1769194008&uaa=x86&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gpp_sid=-1&_tu=KA&rfmt=3&fmt=3&is_vtc=1&cid=CAQSiwEA56J1ef6g78KoAJvl0slXiRj1aJFCS_-kSnPVyXX6nuFt91cEukN5O0pEGWEoemyBuET27M146DHBMUfvhFXMSvqcP6WhdO5RJcJBH0mf98Cp8cDnKLyTWQMyGMBgxotpjklsrPoX4J7MJjg942CjfVCF4ipBVqBplM0fvImfwQSQjDKGfqV4Ne50&random=1017703787&rmt_tld=0&ipr=y> (resource type: image)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://www.google.co.in/pagead/1p-user-list/882349284/?random=1769194008491&cv=11&fst=1769191200000&bg=ffffff&guid=ON&async=1&gtm=45be61m1h2v9209543294z86472178za20gzb6472178zd6472178xea&gcd=13l3l3l3l1l1&dma=0&tcfd=1000g&tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391252~115616985~115938466~115938468~116682876~117025848~117041587~117042505~117099528&u_w=1280&u_h=720&url=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196&frm=0&tiba=Top%20Picks%20-%20Nutritional%20Drinks%20%3A%20Buy%20Top%20Picks%20-%20Nutritional%20Drinks%20Products%20Online%20in%20India%20%7C%201mg&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=528183863.1769194008&uaa=x86&uab=64&uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0&uamb=0&uam=&uap=Windows&uapv=19.0.0&uaw=0&gpp_sid=-1&_tu=KA&rfmt=3&fmt=3&is_vtc=1&cid=CAQSiwEA56J1ef6g78KoAJvl0slXiRj1aJFCS_-kSnPVyXX6nuFt91cEukN5O0pEGWEoemyBuET27M146DHBMUfvhFXMSvqcP6WhdO5RJcJBH0mf98Cp8cDnKLyTWQMyGMBgxotpjklsrPoX4J7MJjg942CjfVCF4ipBVqBplM0fvImfwQSQjDKGfqV4Ne50&random=1017703787&rmt_tld=1&ipr=y> (resource type: image)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://15696623.fls.doubleclick.net/activityi;src=15696623;type=tata10;cat=pharm00;ord=4217253212085;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_Os0WFpafgpPv0ZeKNiawvxi7B-bxCslyfA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (location: https://15696623.fls.doubleclick.net/activityi;dc_pre=CKW2sqSpopIDFS_BPAIdV6oKrw;src=15696623;type=tata10;cat=pharm00;ord=4217253212085;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_Os0WFpafgpPv0ZeKNiawvxi7B-bxCslyfA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <302 https://14719398.fls.doubleclick.net/activityi;src=14719398;type=invmedia;cat=tata100w;ord=2042751259487;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_nxEMeGbKTA04BmsdmPN_wh0KQQe5NBn0xg;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (location: https://14719398.fls.doubleclick.net/activityi;dc_pre=CLuftqSpopIDFXjTPAIddIkmEQ;src=14719398;type=invmedia;cat=tata100w;ord=2042751259487;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_nxEMeGbKTA04BmsdmPN_wh0KQQe5NBn0xg;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://14719398.fls.doubleclick.net/activityi;dc_pre=CL21sqSpopIDFY8NgwMdXqwrVA;src=14719398;type=invmedia;cat=tata100p;ord=4408943854644;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_kJC7m0ApdGth_l0ZUGc1etk6zr9S5OgTNw;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://15696623.fls.doubleclick.net/activityi;dc_pre=CI6wsqSpopIDFcnJPAIdbnEDGA;src=15696623;type=tata10;cat=pharm002;ord=4138578478456;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_95tMGm_L8MEyxo3Cq7DeAic2GD8y2etuzA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://15696623.fls.doubleclick.net/activityi;dc_pre=CKW2sqSpopIDFS_BPAIdV6oKrw;src=15696623;type=tata10;cat=pharm00;ord=4217253212085;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_Os0WFpafgpPv0ZeKNiawvxi7B-bxCslyfA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://14719398.fls.doubleclick.net/activityi;dc_pre=CLuftqSpopIDFXjTPAIddIkmEQ;src=14719398;type=invmedia;cat=tata100w;ord=2042751259487;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=KFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_nxEMeGbKTA04BmsdmPN_wh0KQQe5NBn0xg;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?> (resource type: document)
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://14719398.fls.doubleclick.net/activityi;dc_pre=CL21sqSpopIDFY8NgwMdXqwrVA;src=14719398;type=invmedia;cat=tata100p;ord=4408943854644;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9191331500z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=103116026~103200004~104527906~104528500~104684208~104684211~105391253~115938466~115938469~116185181~116185182~116682876~117041587;epver=2;dc_random=1769194009_kJC7m0ApdGth_l0ZUGc1etk6zr9S5OgTNw;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Response: <200 https://15696623.fls.doubleclick.net/activityi;dc_pre=CI6wsqSpopIDFcnJPAIdbnEDGA;src=15696623;type=tata10;cat=pharm002;ord=4138578478456;npa=0;auiddc=528183863.1769194008;uaa=x86;uab=64;uafvl=HeadlessChrome%3B143.0.7499.4%7CChromium%3B143.0.7499.4%7CNot%2520A(Brand%3B24.0.0.0;uamb=0;uam=;uap=Windows;uapv=19.0.0;uaw=0;pscdl=noapi;frm=0;gpp_sid=-1;_tu=AFA;gtm=45fe61m1h2v9228448080z86472178za20gzb6472178zd6472178xea;gcd=13l3l3l3l1l1;dma=0;dc_fmt=2;tcfd=1000g;tag_exp=102015666~103116026~103200004~104527906~104528501~104684208~104684211~105391252~115616985~115938466~115938468~116682876~116988315~117041587~117099528;epver=2;dc_random=1769194009_95tMGm_L8MEyxo3Cq7DeAic2GD8y2etuzA;_dc_test=1;~oref=https%3A%2F%2Fwww.1mg.com%2Fcategories%2Fnutritional-drinks-196?>
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: [Context=default] Request: <GET https://mug.criteo.com/sid?cpp=u_fyvHx4YVY3MnA5RmRsOWpUcGwwNWpoR21rTG5lRS9IbkhHODhqTmpzWFVTS2V6YnNJZjBGZXUwa2RpMU5laFJwby96NDN1NzdLQUcwTnZkdnpTNjNuektLYVhFRXZXSStWYVVVUDBIc3lTLzR4WXI1bVM4MjBoUWFQYWpXUnBFekFlUmEwOWUzRzcyMmlxWnQ4OUlkMlQzdnNJUmdrdlRCYVNWVTJrcS91clhyRlhtd3pWZ1NyTVZXL2pLWHBoWVE2R2Yrbk5iSGRybWJja1Q4S2JvVS9aRjNIVXNmdmlmeTNFZ3FDR0dNWjNtNE8ybjRmdTFldkdGNEZUb2VnOFNkajhrc3BFY0FIMXhtdk44NGpiR3VBRzJ6KzlGYlRCblM3aWdkUkloNDNYaXRBND18&cppv=2> (resource type: fetch)
+2026-01-24 00:16:49 [scrapy.core.engine] DEBUG: Crawled (200) <GET https://www.1mg.com/categories/nutritional-drinks-196> (referer: None) ['playwright']
+2026-01-24 00:16:49 [scrapy.core.engine] INFO: Closing spider (closespider_pagecount)
+2026-01-24 00:16:49 [tata_1mg] INFO: Found 20 product containers using CSS selector.
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Pack Size: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Raw Price Text: None
+2026-01-24 00:16:49 [tata_1mg] INFO: Constructing next page: https://www.1mg.com/categories/nutritional-drinks-196?page=2
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/a8a35785d6eb40bf8dabadbc4d3b2cc7.jpg',
+ 'name': 'Protinex High Quality Protein | Nutritional Drink for Immunity & '
+         'Strength | Zero Added Sugar Creamy Vanilla Powder',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.754384',
+ 'url': 'https://www.1mg.com/otc/protinex-high-quality-protein-nutritional-drink-for-immunity-strength-zero-added-sugar-creamy-vanilla-powder-otc900814'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/ghjyb8qwiilac2laqxlk.jpg',
+ 'name': 'LivSource Powder with Protein & BCAA for Muscle Growth | Sugar & '
+         'Gluten Free | Flavour Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.754989',
+ 'url': 'https://www.1mg.com/otc/livsource-powder-with-protein-bcaa-for-muscle-growth-sugar-gluten-free-flavour-vanilla-otc687792'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f426ab11603844ca99727ddd0a187666.jpg',
+ 'name': 'Ensure Plus Powder Scientifically Formulated to Support Recovery '
+         'Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.755495',
+ 'url': 'https://www.1mg.com/otc/ensure-plus-powder-scientifically-formulated-to-support-recovery-vanilla-otc332463'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/049fe94dbdfc4b9796a13c2b10b47c69.jpg',
+ 'name': 'Prohance-HP High Protein Supplement for Muscles, Tissues & Digestion '
+         '| Flavour Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.755976',
+ 'url': 'https://www.1mg.com/otc/prohance-hp-high-protein-supplement-for-muscles-tissues-digestion-flavour-vanilla-otc496668'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/65267ba6290742dca5a107f810c53285.jpg',
+ 'name': 'Protein+ High Protein Supplement Powder | Daily Protein & Strength '
+         'Support | by Tata 1mg | Powder Chocolate',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.756419',
+ 'url': 'https://www.1mg.com/otc/protein-high-protein-supplement-powder-daily-protein-strength-support-by-tata-1mg-powder-chocolate-otc820481'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/6f2f500445be42849dcbd576e83f7046.jpg',
+ 'name': 'Protinex Diabetes Care Protein Powder with Vitamins |  For Strength, '
+         'Blood Sugar & Weight Management | Nutrition Formula Powder',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.756874',
+ 'url': 'https://www.1mg.com/otc/protinex-diabetes-care-protein-powder-with-vitamins-for-strength-blood-sugar-weight-management-nutrition-formula-powder-otc674536'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f87c6f346c8442ee941b4e31f0ceba63.jpg',
+ 'name': 'PediaSure Powder for Growing Children Chocolate with Oats & Almond',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.757350',
+ 'url': 'https://www.1mg.com/otc/pediasure-powder-for-growing-children-chocolate-with-oats-almond-otc565363'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/9ed63cb6f7094fa2b0ddac40805ff73a.jpg',
+ 'name': 'Protinex MotherÆs Drink with DHA, Vitamins & Protein | Nutrition '
+         'Formula Powder Chocolate',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.757818',
+ 'url': 'https://www.1mg.com/otc/protinex-mother-s-drink-with-dha-vitamins-protein-nutrition-formula-powder-chocolate-otc323769'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/1bf4e99b120b43088cc0f6197777382f.jpg',
+ 'name': 'Vidaslim Protein Powder Meal Replacement Shake | Weight Management | '
+         'For Men & Women, Vanilla Elixir',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.758263',
+ 'url': 'https://www.1mg.com/otc/vidaslim-protein-powder-meal-replacement-shake-weight-management-for-men-women-vanilla-elixir-otc993437'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/b8dda3b943024aa794b67dae00c804b4.jpg',
+ 'name': 'Ensure Powder Complete Balanced Drink for Adults | For Strength, '
+         'Immunity & Energy | With Essential Vitamins | Nutrition Formula '
+         'Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.758936',
+ 'url': 'https://www.1mg.com/otc/ensure-powder-complete-balanced-drink-for-adults-for-strength-immunity-energy-with-essential-vitamins-nutrition-formula-vanilla-otc999798'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f9c28bf5-2334-4669-82fb-2fa01a9d00b4.jpeg',
+ 'name': 'Protein+ Diabetic Care Powder | Nutrition for Sugar Control & '
+         'Strength | by Tata 1mg',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.759574',
+ 'url': 'https://www.1mg.com/otc/protein-diabetic-care-powder-nutrition-for-sugar-control-strength-by-tata-1mg-otc828559'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/7b21d40db57041bab5ae3ffa79e6e938.jpg',
+ 'name': 'Protinex High Quality Protein | Nutritional Drink for Immunity & '
+         'Strength Zero Added Sugar Creamy Vanilla Powder',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.760041',
+ 'url': 'https://www.1mg.com/otc/protinex-high-quality-protein-nutritional-drink-for-immunity-strength-zero-added-sugar-creamy-vanilla-powder-otc139388'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/30ac43be4f484b0480955173765b7949.jpg',
+ 'name': 'Maxvida High Protein Powder Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.760451',
+ 'url': 'https://www.1mg.com/otc/maxvida-high-protein-powder-vanilla-otc900933'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/z0cnyocu1o2r83kdmuzt.jpg',
+ 'name': 'B-Protin Powder for Complete Nutrition | Flavour Chocolate',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.760860',
+ 'url': 'https://www.1mg.com/otc/b-protin-powder-for-complete-nutrition-flavour-chocolate-otc90423'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/uv3wagnasob4pv7o5uh9.jpg',
+ 'name': 'Ensure High Protein Drink for Physically Active Adults | Powder '
+         'Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.761259',
+ 'url': 'https://www.1mg.com/otc/ensure-high-protein-drink-for-physically-active-adults-powder-vanilla-otc702334'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/hh3f6u4nsavv4kfmydgw.jpg',
+ 'name': 'Fresubin Nutrition for Active Life | Flavour Vanilla Powder',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.761657',
+ 'url': 'https://www.1mg.com/otc/fresubin-nutrition-for-active-life-flavour-vanilla-powder-otc736585'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/caca78ff10b84582adf44667a35e2cf2.jpg',
+ 'name': 'Tata 1mg Protein+ High Protein Supplement Powder | Daily Protein & '
+         'Strength Support | by Tata 1mg | Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.762059',
+ 'url': 'https://www.1mg.com/otc/tata-1mg-protein-high-protein-supplement-powder-daily-protein-strength-support-by-tata-1mg-vanilla-otc820480'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/dadf7ad1bd99443eaaffce094adabefe.jpg',
+ 'name': 'Nestle Resource High Quality Whey Protein | Flavour Powder Vanilla '
+         'Rich in Immuno Nutrients',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.762474',
+ 'url': 'https://www.1mg.com/otc/nestle-resource-high-quality-whey-protein-flavour-powder-vanilla-rich-in-immuno-nutrients-otc702680'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/74cdd160415a49ea8fab8ddeebcb9c3a.jpg',
+ 'name': 'Tata 1mg Pro+ 2.0 High Protein High Calorie Protein Powder Vanilla',
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.763077',
+ 'url': 'https://www.1mg.com/otc/tata-1mg-pro-2.0-high-protein-high-calorie-protein-powder-vanilla-otc828557'}
+2026-01-24 00:16:49 [scrapy.core.scraper] DEBUG: Scraped from <200 https://www.1mg.com/categories/nutritional-drinks-196>
+
+{'image_url': 'https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/b142b81381d44efebb7004a7df4018b6.jpg',
+ 'name': "Horlicks Women's Plus Nutrition For Strong Bones Caramel",
+ 'pack_size': None,
+ 'price': 0.0,
+ 'rating': '0',
+ 'rating_count': '0',
+ 'scraped_at': '2026-01-24T00:16:49.763585',
+ 'url': 'https://www.1mg.com/otc/horlicks-women-s-plus-nutrition-for-strong-bones-caramel-otc622664'}
+2026-01-24 00:16:49 [scrapy.extensions.feedexport] INFO: Stored json feed (20 items) in: test_output.json
+2026-01-24 00:16:49 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 321,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 549402,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/200': 1,
+ 'elapsed_time_seconds': 4.275,
+ 'feedexport/success_count/FileFeedStorage': 1,
+ 'finish_reason': 'closespider_pagecount',
+ 'finish_time': datetime.datetime(2026, 1, 23, 18, 46, 49, 775529, tzinfo=datetime.timezone.utc),
+ 'item_scraped_count': 20,
+ 'items_per_minute': 300.0,
+ 'log_count/DEBUG': 374,
+ 'log_count/INFO': 49,
+ 'playwright/browser_count': 1,
+ 'playwright/context_count': 1,
+ 'playwright/context_count/max_concurrent': 1,
+ 'playwright/context_count/persistent/False': 1,
+ 'playwright/context_count/remote/False': 1,
+ 'playwright/page_count': 1,
+ 'playwright/page_count/closed': 1,
+ 'playwright/page_count/max_concurrent': 1,
+ 'playwright/request_count': 183,
+ 'playwright/request_count/method/GET': 173,
+ 'playwright/request_count/method/POST': 10,
+ 'playwright/request_count/navigation': 11,
+ 'playwright/request_count/resource_type/document': 11,
+ 'playwright/request_count/resource_type/fetch': 8,
+ 'playwright/request_count/resource_type/font': 5,
+ 'playwright/request_count/resource_type/image': 95,
+ 'playwright/request_count/resource_type/script': 53,
+ 'playwright/request_count/resource_type/xhr': 11,
+ 'playwright/response_count': 168,
+ 'playwright/response_count/method/GET': 164,
+ 'playwright/response_count/method/POST': 4,
+ 'playwright/response_count/resource_type/document': 9,
+ 'playwright/response_count/resource_type/fetch': 2,
+ 'playwright/response_count/resource_type/font': 5,
+ 'playwright/response_count/resource_type/image': 92,
+ 'playwright/response_count/resource_type/script': 50,
+ 'playwright/response_count/resource_type/xhr': 10,
+ 'request_depth_max': 1,
+ 'response_received_count': 1,
+ 'responses_per_minute': 15.0,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 2,
+ 'scheduler/enqueued/memory': 2,
+ 'start_time': datetime.datetime(2026, 1, 23, 18, 46, 45, 500529, tzinfo=datetime.timezone.utc)}
+2026-01-24 00:16:49 [scrapy.core.engine] INFO: Spider closed (closespider_pagecount)
+2026-01-24 00:16:49 [scrapy-playwright] INFO: Closing download handler
+2026-01-24 00:16:49 [scrapy-playwright] INFO: Closing download handler
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: Browser context closed: 'default' (persistent=False, remote=False)
+2026-01-24 00:16:49 [scrapy-playwright] INFO: Closing browser
+2026-01-24 00:16:49 [scrapy-playwright] DEBUG: Browser disconnected

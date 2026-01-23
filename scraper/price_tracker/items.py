@@ -7,6 +7,13 @@ import scrapy
 
 
 class PriceTrackerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    name = scrapy.Field()
+    price = scrapy.Field()
+    url = scrapy.Field()
+    image_url = scrapy.Field()
+    scraped_at = scrapy.Field()
+    
+    # New fields for Tata 1mg
+    pack_size = scrapy.Field()
+    rating = scrapy.Field()
+    rating_count = scrapy.Field()

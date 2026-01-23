@@ -9,7 +9,7 @@ def run_spider():
     # This runs the same command you were typing manually
     # 'check=True' ensures we catch errors if the scraper crashes
     try:
-        subprocess.run(["scrapy", "crawl", "books"], check=True)
+        subprocess.run(["scrapy", "crawl", "tata_1mg"], check=True)
         print("✅ Scrape finished successfully.")
     except subprocess.CalledProcessError as e:
         print(f"❌ Error running scraper: {e}")
