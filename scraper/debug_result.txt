@@ -1,0 +1,8 @@
+--- Testing Simplified Page 2 URL: https://www.1mg.com/categories/nutritional-drinks-196?page=2 ---
+Simple Page 2 First Product: Protinex High Quality Protein | Nutritional Drink for Immunity & Strength | Zero Added Sugar Creamy Vanilla Powder
+
+--- Searching for Pagination Controls on Page 1 ---
+Page 1 First Product: Protinex High Quality Protein | Nutritional Drink for Immunity & Strength | Zero Added Sugar Creamy Vanilla Powder
+Found 'Next' button/link!
+Page 2 (via Click) First Product: Nestle Nangrow Nutritious Milk Drink for Growing Children Aged 2-6 Years,Zero Sucrose,Contains DHA Rich in Protein & Vital Nutrients Flavour Creamy Vanilla
+[SUCCESS] Clicking Next LOADED NEW CONTENT.

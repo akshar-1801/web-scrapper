@@ -60,7 +60,7 @@ class PostgresPipeline:
         self.cur.execute("""
             CREATE TABLE IF NOT EXISTS products (
                 id SERIAL PRIMARY KEY,
-                name TEXT UNIQUE,
+                name TEXT,
                 url TEXT UNIQUE,
                 image_url TEXT,
                 pack_size TEXT,
@@ -84,44 +84,51 @@ class PostgresPipeline:
         self.connection.close()
 
     def process_item(self, item, spider):
-        # Logic: 
-        # 1. We check if the product exists in the 'products' table.
-        # 2. If it does, we update it. If not, we create it.
-        # 3. We always add a new entry to the 'prices' table.
-        
-        # INSERT into products (Static Data)
-        self.cur.execute("""
-            INSERT INTO products (name, url, image_url, pack_size, rating, rating_count)
-            VALUES (%s, %s, %s, %s, %s, %s)
-            ON CONFLICT (url) DO UPDATE SET 
-                name = EXCLUDED.name,
-                image_url = EXCLUDED.image_url,
-                pack_size = EXCLUDED.pack_size,
-                rating = EXCLUDED.rating,
-                rating_count = EXCLUDED.rating_count
-            RETURNING id;
-        """, (
-            item['name'], 
-            item['url'], 
-            item['image_url'],
-            item.get('pack_size'),
-            item.get('rating'),
-            item.get('rating_count')
-        ))
-        
-        # Get the ID of the product we just touched
-        # Note: ON CONFLICT DO UPDATE RETURNING id works in Postgres
-        result = self.cur.fetchone()
-        if result:
-            product_id = result[0]
+        try:
+            # Logic: 
+            # 1. We check if the product exists in the 'products' table.
+            # 2. If it does, we update it. If not, we create it.
+            # 3. We always add a new entry to the 'prices' table.
             
-            # INSERT into prices (History Data)
+            # INSERT into products (Static Data)
             self.cur.execute("""
-                INSERT INTO prices (product_id, price, scraped_at)
-                VALUES (%s, %s, %s)
-            """, (product_id, item['price'], item['scraped_at']))
+                INSERT INTO products (name, url, image_url, pack_size, rating, rating_count)
+                VALUES (%s, %s, %s, %s, %s, %s)
+                ON CONFLICT (url) DO UPDATE SET 
+                    name = EXCLUDED.name,
+                    image_url = EXCLUDED.image_url,
+                    pack_size = EXCLUDED.pack_size,
+                    rating = EXCLUDED.rating,
+                    rating_count = EXCLUDED.rating_count
+                RETURNING id;
+            """, (
+                item['name'], 
+                item['url'], 
+                item['image_url'],
+                item.get('pack_size'),
+                item.get('rating'),
+                item.get('rating_count')
+            ))
+            
+            # Get the ID of the product we just touched
+            result = self.cur.fetchone()
+            if result:
+                product_id = result[0]
+                
+                # INSERT into prices (History Data)
+                self.cur.execute("""
+                    INSERT INTO prices (product_id, price, scraped_at)
+                    VALUES (%s, %s, %s)
+                """, (product_id, item['price'], item['scraped_at']))
 
-            # Save changes
-            self.connection.commit()
+                # Save changes
+                self.connection.commit()
+                
+        except Exception as e:
+            spider.logger.error(f"Error processing item: {e}")
+            self.connection.rollback()
+            # We don't raise, allowing the spider to continue but logging the error.
+            # Depending on desired behavior, we might want to return None to drop the item from output?
+            # Scrapy pipelines usually return item.
             
         return item
