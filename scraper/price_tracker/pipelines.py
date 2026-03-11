@@ -1,5 +1,6 @@
 import boto3
 import json
+import os
 from botocore.client import Config
 
 class MinioPipeline:
@@ -43,20 +44,18 @@ import psycopg2
 class PostgresPipeline:
     def open_spider(self, spider):
         # Connect to the database
-        # We use "postgres" as the host because that is the service name in docker-compose
         self.connection = psycopg2.connect(
-            host="postgres",
+            host=os.getenv("DB_HOST", "postgres"),
             user="user",
             password="password",
             dbname="prices_db"
         )
         self.cur = self.connection.cursor()
         
-        # Initialize Schema (Drop and Create for clean switch)
-        # Note: In production, use migrations. For this dev setup, we reset schema to match new data.
-        self.cur.execute("DROP TABLE IF EXISTS prices;")
-        self.cur.execute("DROP TABLE IF EXISTS products;")
-        
+        # Initialize Schema (Create if not exists)
+        self._create_tables()
+
+    def _create_tables(self):
         self.cur.execute("""
             CREATE TABLE IF NOT EXISTS products (
                 id SERIAL PRIMARY KEY,
@@ -65,9 +64,23 @@ class PostgresPipeline:
                 image_url TEXT,
                 pack_size TEXT,
                 rating TEXT,
-                rating_count TEXT
+                rating_count TEXT,
+                category TEXT,
+                description TEXT,
+                key_ingredients TEXT,
+                safety_information TEXT,
+                directions_for_use TEXT
             );
         """)
+        
+        # Add columns if they don't exist (for existing tables)
+        for col in ['description', 'key_ingredients', 'safety_information', 'directions_for_use']:
+            try:
+                self.cur.execute(f"ALTER TABLE products ADD COLUMN IF NOT EXISTS {col} TEXT;")
+            except psycopg2.Error:
+                self.connection.rollback()
+            else:
+                self.connection.commit()
         
         self.cur.execute("""
             CREATE TABLE IF NOT EXISTS prices (
@@ -85,21 +98,25 @@ class PostgresPipeline:
 
     def process_item(self, item, spider):
         try:
-            # Logic: 
-            # 1. We check if the product exists in the 'products' table.
-            # 2. If it does, we update it. If not, we create it.
-            # 3. We always add a new entry to the 'prices' table.
-            
             # INSERT into products (Static Data)
+            # We update all fields on conflict to ensure we capture the latest details
             self.cur.execute("""
-                INSERT INTO products (name, url, image_url, pack_size, rating, rating_count)
-                VALUES (%s, %s, %s, %s, %s, %s)
+                INSERT INTO products (
+                    name, url, image_url, pack_size, rating, rating_count, category,
+                    description, key_ingredients, safety_information, directions_for_use
+                )
+                VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
                 ON CONFLICT (url) DO UPDATE SET 
                     name = EXCLUDED.name,
                     image_url = EXCLUDED.image_url,
                     pack_size = EXCLUDED.pack_size,
                     rating = EXCLUDED.rating,
-                    rating_count = EXCLUDED.rating_count
+                    rating_count = EXCLUDED.rating_count,
+                    category = EXCLUDED.category,
+                    description = COALESCE(EXCLUDED.description, products.description),
+                    key_ingredients = COALESCE(EXCLUDED.key_ingredients, products.key_ingredients),
+                    safety_information = COALESCE(EXCLUDED.safety_information, products.safety_information),
+                    directions_for_use = COALESCE(EXCLUDED.directions_for_use, products.directions_for_use)
                 RETURNING id;
             """, (
                 item['name'], 
@@ -107,7 +124,12 @@ class PostgresPipeline:
                 item['image_url'],
                 item.get('pack_size'),
                 item.get('rating'),
-                item.get('rating_count')
+                item.get('rating_count'),
+                item.get('category'),
+                item.get('description'),
+                item.get('key_ingredients'),
+                item.get('safety_information'),
+                item.get('directions_for_use')
             ))
             
             # Get the ID of the product we just touched
@@ -127,8 +149,5 @@ class PostgresPipeline:
         except Exception as e:
             spider.logger.error(f"Error processing item: {e}")
             self.connection.rollback()
-            # We don't raise, allowing the spider to continue but logging the error.
-            # Depending on desired behavior, we might want to return None to drop the item from output?
-            # Scrapy pipelines usually return item.
             
         return item

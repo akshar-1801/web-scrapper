@@ -17,3 +17,10 @@ class PriceTrackerItem(scrapy.Item):
     pack_size = scrapy.Field()
     rating = scrapy.Field()
     rating_count = scrapy.Field()
+    category = scrapy.Field()
+
+    # Detailed info
+    description = scrapy.Field()
+    key_ingredients = scrapy.Field()
+    safety_information = scrapy.Field()
+    directions_for_use = scrapy.Field()

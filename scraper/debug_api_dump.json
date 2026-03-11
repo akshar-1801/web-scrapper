@@ -1,0 +1,4304 @@
+{
+  "data": {
+    "name": "Diabetes Care",
+    "udp_id": 2320,
+    "widgets": [
+      {
+        "id": "738045",
+        "name": "Sansu Jamun Sirka for Skin, Digestion, Diabetes & Oral Health | Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/sansu-jamun-sirka-for-skin-digestion-diabetes-oral-health-sugar-free-otc738045",
+        "label": "500 ml Liquid",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cxebcgxaeinxpakbvbuh.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b9125",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 738045,
+                  "sku_mrp": 125,
+                  "sku_list_price": 125,
+                  "sku_coupon_price": 112,
+                  "sku_best_price": 112
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9112</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 738045,
+                    "sku_mrp": 125,
+                    "sku_list_price": 125,
+                    "sku_coupon_price": 112,
+                    "sku_best_price": 112
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "738045",
+            "quantity": 2
+          }
+        },
+        "quantity_info": {
+          "min": 2,
+          "max": 16,
+          "selling_quantity": 1,
+          "display_text": "Min order qty: 2",
+          "know_more": {
+            "header": "Minimum order quantity",
+            "description": "This offer price requires a minimum quantity of this product in your order. A minimum order quantity allows us to offer a lower price against the item that would otherwise be cost-prohibitive to ship."
+          }
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 326993,
+            "eta_epoch": 1770724156
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 326993,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 738045,
+          "mrp": 124.58,
+          "discount_percent": null,
+          "eta": 326993,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770724156,
+          "position": 20,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "275045",
+        "name": "PentaSure DM \u2013 Diabetes Care Nutrition Drink with 4P Protein helps to Manage Blood Powder Vanilla",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/pentasure-dm-diabetes-care-nutrition-drink-with-4p-protein-helps-to-manage-blood-powder-vanilla-otc275045",
+        "label": "400 gm Powder",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/065b436d5e024cffb2c0ccd03a6e4a7e.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 177,
+          "average_rating": 4.4
+        },
+        "prices": {
+          "mrp": "\u20b91156",
+          "discounted_price": "\u20b9937",
+          "discount": "19% off",
+          "is_cp": false,
+          "discounted_text": "19% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 275045,
+                  "sku_mrp": 1156,
+                  "sku_list_price": 937,
+                  "sku_coupon_price": 843,
+                  "sku_best_price": 843
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9843</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 275045,
+                    "sku_mrp": 1156,
+                    "sku_list_price": 937,
+                    "sku_coupon_price": 843,
+                    "sku_best_price": 843
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9937"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "275045",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 6,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402600
+          }
+        },
+        "ad": {
+          "uclid": "f070310a3e9450cf0b2101b0dfabe5b8958f8d840be60a2502ed3328e22a8fee7d6d716e9c662766093e71cd494a108493181992cdd922d158263bd723bd4eb615a04a0d4ae5c6f8e1acac7dd337d22c97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d006e77f637e7f3ffafbe5dae2541d59b57c8ce23271aedf8f6d7aafe60f970211eeafde2d17139585e1f381317dee072f@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 275045,
+          "mrp": 1156,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "f070310a3e9450cf0b2101b0dfabe5b8958f8d840be60a2502ed3328e22a8fee7d6d716e9c662766093e71cd494a108493181992cdd922d158263bd723bd4eb615a04a0d4ae5c6f8e1acac7dd337d22c97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d006e77f637e7f3ffafbe5dae2541d59b57c8ce23271aedf8f6d7aafe60f970211eeafde2d17139585e1f381317dee072f@~v1",
+          "epoch_eta": 1770402600,
+          "position": 21,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "822207",
+        "name": "PentaSure DM \u2013 Diabetes Care Nutrition Drink with 4P Protein helps to Manage Blood Vanilla",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/pentasure-dm-diabetes-care-nutrition-drink-with-4p-protein-helps-to-manage-blood-vanilla-otc822207",
+        "label": "1 kg Powder",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/4fdee63bf7454640bf1c4374a69944a7.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 177,
+          "average_rating": 4.4
+        },
+        "prices": {
+          "mrp": "\u20b92742",
+          "discounted_price": "\u20b92194",
+          "discount": "20% off",
+          "is_cp": false,
+          "discounted_text": "20% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 822207,
+                  "sku_mrp": 2742,
+                  "sku_list_price": 2194,
+                  "sku_coupon_price": 1975,
+                  "sku_best_price": 1975
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b91975</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 822207,
+                    "sku_mrp": 2742,
+                    "sku_list_price": 2194,
+                    "sku_coupon_price": 1975,
+                    "sku_best_price": 1975
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b92194"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "822207",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 8,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402600
+          }
+        },
+        "ad": {
+          "uclid": "ea199cf7a07b1afb4fb2baeb763102ef3e7534a561849e462d122e9d45b6fdc8edbfd559c6b02d6d208432b8eeff02e793181992cdd922d158263bd723bd4eb67850defc6d9c5d2e7aa9ed5f38f6b39997faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d006e77f637e7f3ffafbe5dae2541d59b57c8ce23271aedf8f6d7aafe60f970211eeafde2d17139585e1f381317dee072f@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 822207,
+          "mrp": 2742,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "ea199cf7a07b1afb4fb2baeb763102ef3e7534a561849e462d122e9d45b6fdc8edbfd559c6b02d6d208432b8eeff02e793181992cdd922d158263bd723bd4eb67850defc6d9c5d2e7aa9ed5f38f6b39997faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d006e77f637e7f3ffafbe5dae2541d59b57c8ce23271aedf8f6d7aafe60f970211eeafde2d17139585e1f381317dee072f@~v1",
+          "epoch_eta": 1770402600,
+          "position": 22,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "875560",
+        "name": "Zqzaar Syrup Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/zqzaar-syrup-sugar-free-otc875560",
+        "label": "100 ml Syrup",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/6cf070dfb92d4eab91f516133c8ab422.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b93047",
+          "discounted_price": "\u20b92723",
+          "discount": "11% off",
+          "is_cp": false,
+          "discounted_text": "11% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 875560,
+                  "sku_mrp": 3047,
+                  "sku_list_price": 2723,
+                  "sku_coupon_price": 2451,
+                  "sku_best_price": 2451
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b92451</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 875560,
+                    "sku_mrp": 3047,
+                    "sku_list_price": 2723,
+                    "sku_coupon_price": 2451,
+                    "sku_best_price": 2451
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b92723"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "875560",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 333064,
+            "eta_epoch": 1770730227
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 333064,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 875560,
+          "mrp": 3047,
+          "discount_percent": 11,
+          "eta": 333064,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770730227,
+          "position": 23,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "354109",
+        "name": "PentaSure DM \u2013 Diabetes Care Nutrition Drink with 4P Protein helps to Manage Blood Powder Chocolate",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/pentasure-dm-diabetes-care-nutrition-drink-with-4p-protein-helps-to-manage-blood-powder-chocolate-otc354109",
+        "label": "400 gm Powder",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/724d54261d324853b75f1ab7546944cf.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b91190",
+          "discounted_price": "\u20b9964",
+          "discount": "19% off",
+          "is_cp": false,
+          "discounted_text": "19% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 354109,
+                  "sku_mrp": 1190,
+                  "sku_list_price": 964,
+                  "sku_coupon_price": 868,
+                  "sku_best_price": 868
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9868</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 354109,
+                    "sku_mrp": 1190,
+                    "sku_list_price": 964,
+                    "sku_coupon_price": 868,
+                    "sku_best_price": 868
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9964"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "354109",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 6,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 333064,
+            "eta_epoch": 1770730227
+          }
+        },
+        "ad": {
+          "uclid": "708b5bbcda8a5811ed2de24c180bfe32d523bb06270a2faaf7c22fc1acd9ca84897d0bce24b568f1349bcfe1b5376dbf93181992cdd922d158263bd723bd4eb6523c8072dfd8a49604ba44a965b296fb97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d006e77f637e7f3ffafbe5dae2541d59b57c8ce23271aedf8f6d7aafe60f970211eeafde2d17139585e1f381317dee072f@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 333064,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 354109,
+          "mrp": 1190,
+          "discount_percent": null,
+          "eta": 333064,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": true,
+          "uclid": "708b5bbcda8a5811ed2de24c180bfe32d523bb06270a2faaf7c22fc1acd9ca84897d0bce24b568f1349bcfe1b5376dbf93181992cdd922d158263bd723bd4eb6523c8072dfd8a49604ba44a965b296fb97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d006e77f637e7f3ffafbe5dae2541d59b57c8ce23271aedf8f6d7aafe60f970211eeafde2d17139585e1f381317dee072f@~v1",
+          "epoch_eta": 1770730227,
+          "position": 24,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "sku_border": true
+      },
+      {
+        "id": "691231df932dd1fc666e5192",
+        "component_id": "691231df932dd1fc666e5192",
+        "type": "category",
+        "ga_data": {
+          "info": {
+            "udp_id": 2320
+          }
+        },
+        "position_count": 6,
+        "mix_panel_data": {
+          "component_id": "691231df932dd1fc666e5192",
+          "component_type": "pharma",
+          "unique_token": "f9a5a81a-eaa9-4f54-9c98-4aa06709ee4c_SulMTZ9jc2_0207_1770397163827:1770397163",
+          "revenue_per_unit": null,
+          "revenue_unit": null,
+          "widget_sponsored": false,
+          "widget_type": "category",
+          "widget_name": "Top Brands_Top Brands",
+          "data_science_variant": "default variant",
+          "udp_id": 2320,
+          "widget_position": 6,
+          "component_name": "Top Brands"
+        },
+        "version": "v2",
+        "separator": null,
+        "header": "Top Brands",
+        "header_image": null,
+        "sub_type": "three_column",
+        "entity_name": null,
+        "cta": null,
+        "header_cta": null,
+        "sub_header": null,
+        "section_id": "691231df932dd1fc666e5192",
+        "aspect_ratio": "1,1",
+        "data": [
+          {
+            "url": "/categories/featured/top-brands/horlicks-diabetes-plus-4096",
+            "id": "4096",
+            "name": null,
+            "image": "https://onemg.gumlet.io/2025-11%2F1762800049_Horlicks+Diabetes.png?format=auto",
+            "mix_panel_data": {
+              "category_id": 4096,
+              "category_name": null,
+              "category_type": null,
+              "position": 0,
+              "target_url": "/categories/featured/top-brands/horlicks-diabetes-plus-4096",
+              "au": null
+            },
+            "max_patient_count": 5,
+            "content_description": "Horlicks Diabetes Plus",
+            "image_data": {
+              "url": "https://onemg.gumlet.io/2025-11%2F1762800049_Horlicks+Diabetes.png?format=auto",
+              "alt": "Horlicks Diabetes Plus"
+            }
+          },
+          {
+            "url": "/categories/featured/top-brands/prohance-155",
+            "id": "155",
+            "name": null,
+            "image": "https://onemg.gumlet.io/2025-11%2F1762800055_Prohance.png?format=auto",
+            "mix_panel_data": {
+              "category_id": 155,
+              "category_name": null,
+              "category_type": null,
+              "position": 1,
+              "target_url": "/categories/featured/top-brands/prohance-155",
+              "au": null
+            },
+            "max_patient_count": 5,
+            "content_description": "Prohance",
+            "image_data": {
+              "url": "https://onemg.gumlet.io/2025-11%2F1762800055_Prohance.png?format=auto",
+              "alt": "Prohance"
+            }
+          },
+          {
+            "url": "/categories/diabetes/accu-chek-273",
+            "id": "273",
+            "name": null,
+            "image": "https://onemg.gumlet.io/2025-11%2F1762800063_Accu-Check.png?format=auto",
+            "mix_panel_data": {
+              "category_id": 273,
+              "category_name": null,
+              "category_type": null,
+              "position": 2,
+              "target_url": "/categories/diabetes/accu-chek-273",
+              "au": null
+            },
+            "max_patient_count": 5,
+            "content_description": "Accu-Chek",
+            "image_data": {
+              "url": "https://onemg.gumlet.io/2025-11%2F1762800063_Accu-Check.png?format=auto",
+              "alt": "Accu-Chek"
+            }
+          },
+          {
+            "url": "/categories/featured/top-brands/pentasure-319",
+            "id": "319",
+            "name": null,
+            "image": "https://onemg.gumlet.io/2025-11%2F1762800070_Pentasure.png?format=auto",
+            "mix_panel_data": {
+              "category_id": 319,
+              "category_name": null,
+              "category_type": null,
+              "position": 3,
+              "target_url": "/categories/featured/top-brands/pentasure-319",
+              "au": null
+            },
+            "max_patient_count": 5,
+            "content_description": "Pentasure",
+            "image_data": {
+              "url": "https://onemg.gumlet.io/2025-11%2F1762800070_Pentasure.png?format=auto",
+              "alt": "Pentasure"
+            }
+          },
+          {
+            "url": "/categories/medical-devices/top-brands-in-healthcare-devices/dr-morepen-devices-1191",
+            "id": "1191",
+            "name": null,
+            "image": "https://onemg.gumlet.io/2025-11%2F1762800076_Dr.Morepen.png?format=auto",
+            "mix_panel_data": {
+              "category_id": 1191,
+              "category_name": null,
+              "category_type": null,
+              "position": 4,
+              "target_url": "/categories/medical-devices/top-brands-in-healthcare-devices/dr-morepen-devices-1191",
+              "au": null
+            },
+            "max_patient_count": 5,
+            "content_description": "Dr. Morepen Devices",
+            "image_data": {
+              "url": "https://onemg.gumlet.io/2025-11%2F1762800076_Dr.Morepen.png?format=auto",
+              "alt": "Dr. Morepen Devices"
+            }
+          },
+          {
+            "url": "/categories/featured/top-brands/contour-268",
+            "id": "268",
+            "name": null,
+            "image": "https://onemg.gumlet.io/2025-11%2F1762800082_Contour.png?format=auto",
+            "mix_panel_data": {
+              "category_id": 268,
+              "category_name": null,
+              "category_type": null,
+              "position": 5,
+              "target_url": "/categories/featured/top-brands/contour-268",
+              "au": null
+            },
+            "max_patient_count": 5,
+            "content_description": "Contour",
+            "image_data": {
+              "url": "https://onemg.gumlet.io/2025-11%2F1762800082_Contour.png?format=auto",
+              "alt": "Contour"
+            }
+          }
+        ],
+        "ga_label": "Top Brands"
+      },
+      {
+        "id": "679453",
+        "name": "Wellbeing Nutrition Melts Into Multi Vitamins | Oral Thin Strip for Immunity | Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/wellbeing-nutrition-melts-into-multi-vitamins-oral-thin-strip-for-immunity-sugar-free-otc679453",
+        "label": "30 disintegrating strips",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/e1fcf1ef88d24585a3beaaa43701cbd9.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 26,
+          "average_rating": 4
+        },
+        "prices": {
+          "mrp": "\u20b9599",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 679453,
+                  "sku_mrp": 599,
+                  "sku_list_price": 599,
+                  "sku_coupon_price": 539,
+                  "sku_best_price": 539
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9539</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 679453,
+                    "sku_mrp": 599,
+                    "sku_list_price": 599,
+                    "sku_coupon_price": 539,
+                    "sku_best_price": 539
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "679453",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 30,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 325011,
+            "eta_epoch": 1770722174
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 325011,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 679453,
+          "mrp": 599,
+          "discount_percent": null,
+          "eta": 325011,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770722174,
+          "position": 25,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "811275",
+        "name": "Gramoz BC Sachet Orange Sugar Free & Gluten Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/gramoz-bc-sachet-orange-sugar-free-gluten-free-otc811275",
+        "label": "10 gm Powder",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/da6f12f86d804762ace955e1bd40d191.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b9142",
+          "discounted_price": "\u20b9137",
+          "discount": "4% off",
+          "is_cp": false,
+          "discounted_text": "4% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 811275,
+                  "sku_mrp": 142,
+                  "sku_list_price": 137,
+                  "sku_coupon_price": 123,
+                  "sku_best_price": 123
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9123</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 811275,
+                    "sku_mrp": 142,
+                    "sku_list_price": 137,
+                    "sku_coupon_price": 123,
+                    "sku_best_price": 123
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9137"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "811275",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 330636,
+            "eta_epoch": 1770727799
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 330636,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 811275,
+          "mrp": 142.37,
+          "discount_percent": 4,
+          "eta": 330636,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770727799,
+          "position": 26,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "507460",
+        "name": "Maharishi Ayurveda Glucomap Tablet | Diabetes Management with Jamun, Karela, Neem, Arjuna, Controls Blood Sugar",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/maharishi-ayurveda-glucomap-tablet-diabetes-management-with-jamun-karela-neem-arjuna-controls-blood-sugar-otc507460",
+        "label": "60 tablets",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/353149aa72de4c5fb55ccc3a62bce553.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 169,
+          "average_rating": 4.4
+        },
+        "prices": {
+          "mrp": "\u20b9319",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 507460,
+                  "sku_mrp": 319,
+                  "sku_list_price": 319,
+                  "sku_coupon_price": 287,
+                  "sku_best_price": 287
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9287</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 507460,
+                    "sku_mrp": 319,
+                    "sku_list_price": 319,
+                    "sku_coupon_price": 287,
+                    "sku_best_price": 287
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "507460",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 60,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402722
+          }
+        },
+        "ad": {
+          "uclid": "faedc331d59040081b517144b1ff73f4c932952f03fa1082e1e916094391e70d6f2202a9d34c6e31a014310f55f25eeec543c1d7436a0571550f025347ece38b7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16cf3e2862e4aae29e08fc6de3bf444778110b025e7df0b647a498fa8885ea8f4b61a6c826b31980d92edecf7f421cd854@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 507460,
+          "mrp": 319,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "faedc331d59040081b517144b1ff73f4c932952f03fa1082e1e916094391e70d6f2202a9d34c6e31a014310f55f25eeec543c1d7436a0571550f025347ece38b7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16cf3e2862e4aae29e08fc6de3bf444778110b025e7df0b647a498fa8885ea8f4b61a6c826b31980d92edecf7f421cd854@~v1",
+          "epoch_eta": 1770402722,
+          "position": 27,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "677858",
+        "name": "Herbal Canada Herbal Premium Udramrit Swaras Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/herbal-canada-herbal-premium-udramrit-swaras-sugar-free-otc677858",
+        "label": "1 Ltr Juice",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/o2rz3m9dtxgolihtl7sg.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b9409",
+          "discounted_price": "\u20b9374",
+          "discount": "9% off",
+          "is_cp": false,
+          "discounted_text": "9% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 677858,
+                  "sku_mrp": 409,
+                  "sku_list_price": 374,
+                  "sku_coupon_price": 337,
+                  "sku_best_price": 337
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9337</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 677858,
+                    "sku_mrp": 409,
+                    "sku_list_price": 374,
+                    "sku_coupon_price": 337,
+                    "sku_best_price": 337
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9374"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "677858",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 8,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 289629,
+            "eta_epoch": 1770686792
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 289629,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 677858,
+          "mrp": 409,
+          "discount_percent": 9,
+          "eta": 289629,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770686792,
+          "position": 28,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "339595",
+        "name": "Axiom Aloevera Diabetes Cod-32 Juice",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/axiom-aloevera-diabetes-cod-32-juice-otc339595",
+        "label": "1000 ml Juice",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/75861f0c4c484776b5f27c58fef9b619.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 50,
+          "average_rating": 4.3
+        },
+        "prices": {
+          "mrp": "\u20b9351",
+          "discounted_price": "\u20b9312",
+          "discount": "11% off",
+          "is_cp": false,
+          "discounted_text": "11% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 339595,
+                  "sku_mrp": 351,
+                  "sku_list_price": 312,
+                  "sku_coupon_price": 281,
+                  "sku_best_price": 281
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9281</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 339595,
+                    "sku_mrp": 351,
+                    "sku_list_price": 312,
+                    "sku_coupon_price": 281,
+                    "sku_best_price": 281
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9312"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "339595",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 333064,
+            "eta_epoch": 1770730227
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 333064,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 339595,
+          "mrp": 351,
+          "discount_percent": 11,
+          "eta": 333064,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770730227,
+          "position": 29,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "659520",
+        "name": "Bakson's Homoeopathy Astha Aid Syrup Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/bakson-s-homoeopathy-astha-aid-syrup-sugar-free-otc659520",
+        "label": "450 ml Syrup",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/52019824f06f401aa96c7a799a129ac3.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Mon, 9 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Mon, 9 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 102,
+          "average_rating": 4.7
+        },
+        "prices": {
+          "mrp": "\u20b9319",
+          "discounted_price": "\u20b9284",
+          "discount": "11% off",
+          "is_cp": false,
+          "discounted_text": "11% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 659520,
+                  "sku_mrp": 319,
+                  "sku_list_price": 284,
+                  "sku_coupon_price": 256,
+                  "sku_best_price": 256
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9256</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 659520,
+                    "sku_mrp": 319,
+                    "sku_list_price": 284,
+                    "sku_coupon_price": 256,
+                    "sku_best_price": 256
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9284"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "659520",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Mon, 9 Feb",
+            "eta": 183226,
+            "eta_epoch": 1770580389
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 183226,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 659520,
+          "mrp": 319,
+          "discount_percent": 11,
+          "eta": 183226,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Mon, 9 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770580389,
+          "position": 30,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "778733",
+        "name": "HXN L-Glutathione | With Biotin & Hyaluronic Acid for Skin Health | Sugar Free Tablet",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/hxn-l-glutathione-with-biotin-hyaluronic-acid-for-skin-health-sugar-free-tablet-otc778733",
+        "label": "60 tablets",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/474b22f81bb74136a46cf6df4206fd7d.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b92224",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 778733,
+                  "sku_mrp": 2224,
+                  "sku_list_price": 2224,
+                  "sku_coupon_price": 2001,
+                  "sku_best_price": 2001
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b92001</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 778733,
+                    "sku_mrp": 2224,
+                    "sku_list_price": 2224,
+                    "sku_coupon_price": 2001,
+                    "sku_best_price": 2001
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "778733",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 60,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 300022,
+            "eta_epoch": 1770697185
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 300022,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 778733,
+          "mrp": 2223.69,
+          "discount_percent": null,
+          "eta": 300022,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770697185,
+          "position": 31,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "356838",
+        "name": "Prohance -D Nutritional Supplement for Diabetes Care | Flavour Vanilla",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/prohance-d-nutritional-supplement-for-diabetes-care-flavour-vanilla-otc356838",
+        "label": "400 gm Powder",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/28686ef42d884358a94463a01d51ccdd.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 619,
+          "average_rating": 4.5
+        },
+        "prices": {
+          "mrp": "\u20b9808",
+          "discounted_price": "\u20b9631",
+          "discount": "22% off",
+          "is_cp": false,
+          "discounted_text": "22% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 356838,
+                  "sku_mrp": 808,
+                  "sku_list_price": 631,
+                  "sku_coupon_price": 568,
+                  "sku_best_price": 568
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9568</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 356838,
+                    "sku_mrp": 808,
+                    "sku_list_price": 631,
+                    "sku_coupon_price": 568,
+                    "sku_best_price": 568
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9631"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "356838",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 10,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402722
+          }
+        },
+        "ad": {
+          "uclid": "9137747d9bbdf859dc8f23e459e4a26b7e0924fc55d7453f19668261c1204c9f90cc3eec3b7e52928aa3beeb9d8f6577ce790011063ef4e23afda05f0e847c01f51578320e9860aeeebb1520ac358eff97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d0ab4bae54f8367141564173e5017d9c0b7d355ea6f71fb3df9f82d1eb786c51d1c99b441e56b2ff37c9533e78f359a8551a8c24b5a8f2b717b78e5b7510fe7f80@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 356838,
+          "mrp": 808.13,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "9137747d9bbdf859dc8f23e459e4a26b7e0924fc55d7453f19668261c1204c9f90cc3eec3b7e52928aa3beeb9d8f6577ce790011063ef4e23afda05f0e847c01f51578320e9860aeeebb1520ac358eff97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d0ab4bae54f8367141564173e5017d9c0b7d355ea6f71fb3df9f82d1eb786c51d1c99b441e56b2ff37c9533e78f359a8551a8c24b5a8f2b717b78e5b7510fe7f80@~v1",
+          "epoch_eta": 1770402722,
+          "position": 32,
+          "sku_badge_name": "best_seller"
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "672014",
+        "name": "NatXtra Blood Sugar Control Capsule | Diabetes Care Supplement |Improves Insulin Level With Gymnema Extract, Magnesium, And Vitamin D3",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/natxtra-blood-sugar-control-capsule-diabetes-care-supplement-improves-insulin-level-with-gymnema-extract-magnesium-and-vitamin-d3-otc672014",
+        "label": "60 capsules",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/8fd0d5b286a844b0b51581468e363b86.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Wed, 11 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Wed, 11 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 53,
+          "average_rating": 3.9
+        },
+        "prices": {
+          "mrp": "\u20b91067",
+          "discounted_price": "\u20b91014",
+          "discount": "5% off",
+          "is_cp": false,
+          "discounted_text": "5% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 672014,
+                  "sku_mrp": 1067,
+                  "sku_list_price": 1014,
+                  "sku_coupon_price": 913,
+                  "sku_best_price": 913
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9913</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 672014,
+                    "sku_mrp": 1067,
+                    "sku_list_price": 1014,
+                    "sku_coupon_price": 913,
+                    "sku_best_price": 913
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b91014"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "672014",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 60,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Wed, 11 Feb",
+            "eta": 401964,
+            "eta_epoch": 1770799127
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 401964,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 672014,
+          "mrp": 1067,
+          "discount_percent": 5,
+          "eta": 401964,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Wed, 11 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770799127,
+          "position": 33,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "485694",
+        "name": "Control D Blood Glucose Test Strip (Only Strips) | Diabetes Monitoring Devices",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/control-d-blood-glucose-test-strip-only-strips-diabetes-monitoring-devices-otc485694",
+        "label": "25 Test Strips",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/jcthqn7o2oqxeyyv4drr.png",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 254,
+          "average_rating": 3.8
+        },
+        "prices": {
+          "mrp": "\u20b9559",
+          "discounted_price": "\u20b9410",
+          "discount": "27% off",
+          "is_cp": false,
+          "discounted_text": "27% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 485694,
+                  "sku_mrp": 559,
+                  "sku_list_price": 410,
+                  "sku_coupon_price": 369,
+                  "sku_best_price": 369
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9369</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 485694,
+                    "sku_mrp": 559,
+                    "sku_list_price": 410,
+                    "sku_coupon_price": 369,
+                    "sku_best_price": 369
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9410"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "485694",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 25,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 333646,
+            "eta_epoch": 1770730809
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 333646,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 485694,
+          "mrp": 559,
+          "discount_percent": 27,
+          "eta": 333646,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770730809,
+          "position": 34,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "356840",
+        "name": "Prohance -D Nutritional Supplement for Diabetes Care | Flavour Chocolate",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/prohance-d-nutritional-supplement-for-diabetes-care-flavour-chocolate-otc356840",
+        "label": "400 gm Powder",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/e3d333d6ebd1472e85bcd99a6d8f0092.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 271,
+          "average_rating": 4.3
+        },
+        "prices": {
+          "mrp": "\u20b9808",
+          "discounted_price": "\u20b9633",
+          "discount": "22% off",
+          "is_cp": false,
+          "discounted_text": "22% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 356840,
+                  "sku_mrp": 808,
+                  "sku_list_price": 633,
+                  "sku_coupon_price": 570,
+                  "sku_best_price": 570
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9570</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 356840,
+                    "sku_mrp": 808,
+                    "sku_list_price": 633,
+                    "sku_coupon_price": 570,
+                    "sku_best_price": 570
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9633"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "356840",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 10,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402722
+          }
+        },
+        "ad": {
+          "uclid": "1133ff342821390100533d8ec1e67a349cf91c2ff725c35eb6163fabd2ebd5edd8e7dfcadacb1269d30fc41aad99dd1aa005c28dc3bb8f67ffdcb9a17b5d81874d30add7f0ca6ee4f067fc0cd92958ba97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d0ab4bae54f8367141564173e5017d9c0b7d355ea6f71fb3df9f82d1eb786c51d15911840bee4a61d2b4be8093a44c48427ddcf04f53fc875e5bb25b9245c9bafe@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 356840,
+          "mrp": 808.13,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "1133ff342821390100533d8ec1e67a349cf91c2ff725c35eb6163fabd2ebd5edd8e7dfcadacb1269d30fc41aad99dd1aa005c28dc3bb8f67ffdcb9a17b5d81874d30add7f0ca6ee4f067fc0cd92958ba97faca8252977eb0a2fea9841a6e2d4c720fe4163c8b9b4030cd8841d8d02d7e67fe751b75a62bd35881824c47d3e428b15ec57e09c3ee08a837f8002f80a1d0ab4bae54f8367141564173e5017d9c0b7d355ea6f71fb3df9f82d1eb786c51d15911840bee4a61d2b4be8093a44c48427ddcf04f53fc875e5bb25b9245c9bafe@~v1",
+          "epoch_eta": 1770402722,
+          "position": 35,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "699798",
+        "name": "AccuSure Simple Blood Glucose Test Strip (Only Strip) | Diabetes Monitoring Devices",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/accusure-simple-blood-glucose-test-strip-only-strip-diabetes-monitoring-devices-otc699798",
+        "label": "100 Test Strips",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/746d6ca6f7c54e3b95a091ec6dab3ebc.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Mon, 9 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Mon, 9 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 264,
+          "average_rating": 4.1
+        },
+        "prices": {
+          "mrp": "\u20b92109",
+          "discounted_price": "\u20b91940",
+          "discount": "8% off",
+          "is_cp": false,
+          "discounted_text": "8% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 699798,
+                  "sku_mrp": 2109,
+                  "sku_list_price": 1940,
+                  "sku_coupon_price": 1746,
+                  "sku_best_price": 1746
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b91746</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 699798,
+                    "sku_mrp": 2109,
+                    "sku_list_price": 1940,
+                    "sku_coupon_price": 1746,
+                    "sku_best_price": 1746
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b91940"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "699798",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 100,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Mon, 9 Feb",
+            "eta": 259200,
+            "eta_epoch": 1770656363
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 259200,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 699798,
+          "mrp": 2109,
+          "discount_percent": 8,
+          "eta": 259200,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Mon, 9 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770656363,
+          "position": 36,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "555928",
+        "name": "Control D Blood Glucose Test Strip (Only Strips) | Diabetes Monitoring Devices",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/control-d-blood-glucose-test-strip-only-strips-diabetes-monitoring-devices-otc555928",
+        "label": "10 Test Strips",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/r52msykkkvcmzlelkut5.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 254,
+          "average_rating": 3.8
+        },
+        "prices": {
+          "mrp": "\u20b9206",
+          "discounted_price": "\u20b9190",
+          "discount": "8% off",
+          "is_cp": false,
+          "discounted_text": "8% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 555928,
+                  "sku_mrp": 206,
+                  "sku_list_price": 190,
+                  "sku_coupon_price": 171,
+                  "sku_best_price": 171
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9171</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 555928,
+                    "sku_mrp": 206,
+                    "sku_list_price": 190,
+                    "sku_coupon_price": 171,
+                    "sku_best_price": 171
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9190"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "555928",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 10,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 333646,
+            "eta_epoch": 1770730809
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 333646,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 555928,
+          "mrp": 206,
+          "discount_percent": 8,
+          "eta": 333646,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770730809,
+          "position": 37,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "633406",
+        "name": "Trimacare 2 Advance Prenatal Multivitamins with Omega 3 Tablet for Gestational Diabetes",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/trimacare-2-advance-prenatal-multivitamins-with-omega-3-tablet-for-gestational-diabetes-otc633406",
+        "label": "60 tablets",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/eb5149937bcd4305892d44f4b5dcc4a8.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 44,
+          "average_rating": 4.2
+        },
+        "prices": {
+          "mrp": "\u20b93537",
+          "discounted_price": "\u20b93042",
+          "discount": "14% off",
+          "is_cp": false,
+          "discounted_text": "14% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 633406,
+                  "sku_mrp": 3537,
+                  "sku_list_price": 3042,
+                  "sku_coupon_price": 2738,
+                  "sku_best_price": 2738
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b92738</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 633406,
+                    "sku_mrp": 3537,
+                    "sku_list_price": 3042,
+                    "sku_coupon_price": 2738,
+                    "sku_best_price": 2738
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b93042"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "633406",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 60,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 338110,
+            "eta_epoch": 1770735273
+          }
+        },
+        "ad": {
+          "uclid": "1e6186c0afa990e721b71a8fdf2b400446ebb551a13054136b5fd00e5f7cd2e0ba587a4703fd363120ac92c4c10c937187576ad9a8fe5a9211ae3ff2e336bc8f86303947e2227abfa2e9eed44b90462f3ea684302c9855cb49bc8737e2334f1b6e961ea92c8c66a137103454eaad0761a6bcc2331dcfffbab3da29d6eabb0e5b982ea19ec1e4e53da834dbbf1de1806667a5565a303200e69e03d51a948210c461c73af8a4483b952697716255d555ca80785bb8fe5ae97165bc80a25abf983d@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 338110,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 633406,
+          "mrp": 3537,
+          "discount_percent": null,
+          "eta": 338110,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": true,
+          "uclid": "1e6186c0afa990e721b71a8fdf2b400446ebb551a13054136b5fd00e5f7cd2e0ba587a4703fd363120ac92c4c10c937187576ad9a8fe5a9211ae3ff2e336bc8f86303947e2227abfa2e9eed44b90462f3ea684302c9855cb49bc8737e2334f1b6e961ea92c8c66a137103454eaad0761a6bcc2331dcfffbab3da29d6eabb0e5b982ea19ec1e4e53da834dbbf1de1806667a5565a303200e69e03d51a948210c461c73af8a4483b952697716255d555ca80785bb8fe5ae97165bc80a25abf983d@~v1",
+          "epoch_eta": 1770735273,
+          "position": 38,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "637253",
+        "name": "Fibopeg Granules Orange Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/fibopeg-granules-orange-sugar-free-otc637253",
+        "label": "154.8 gm Granules",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/3cbd9bf099d64a7badb132bd399e1043.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 16,
+          "average_rating": 4
+        },
+        "prices": {
+          "mrp": "\u20b9316",
+          "discounted_price": "\u20b9300",
+          "discount": "5% off",
+          "is_cp": false,
+          "discounted_text": "5% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 637253,
+                  "sku_mrp": 316,
+                  "sku_list_price": 300,
+                  "sku_coupon_price": 270,
+                  "sku_best_price": 270
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9270</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 637253,
+                    "sku_mrp": 316,
+                    "sku_list_price": 300,
+                    "sku_coupon_price": 270,
+                    "sku_best_price": 270
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9300"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "637253",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+            "eta": 86400,
+            "eta_epoch": 1770483563
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 86400,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 637253,
+          "mrp": 315.8,
+          "discount_percent": 5,
+          "eta": 86400,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770483563,
+          "position": 39,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "911595",
+        "name": "Solace Holistics Replato Platelet Booster Syrup Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/solace-holistics-replato-platelet-booster-syrup-sugar-free-otc911595",
+        "label": "225 ml Syrup",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/e550d0eaba9c4d2b8869ebdc0d696a2c.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Wed, 11 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Wed, 11 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b9279",
+          "discounted_price": "\u20b9215",
+          "discount": "23% off",
+          "is_cp": false,
+          "discounted_text": "23% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 911595,
+                  "sku_mrp": 279,
+                  "sku_list_price": 215,
+                  "sku_coupon_price": 194,
+                  "sku_best_price": 194
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9194</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 911595,
+                    "sku_mrp": 279,
+                    "sku_list_price": 215,
+                    "sku_coupon_price": 194,
+                    "sku_best_price": 194
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9215"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "911595",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Wed, 11 Feb",
+            "eta": 414037,
+            "eta_epoch": 1770811200
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 414037,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 911595,
+          "mrp": 279.38,
+          "discount_percent": 23,
+          "eta": 414037,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Wed, 11 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770811200,
+          "position": 40,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "158046",
+        "name": "Himalaya Himcocid Sugar Free Suspension| Antacid Mint",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/himalaya-himcocid-sugar-free-suspension-antacid-mint-otc158046",
+        "label": "200 ml Suspension",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/0fa19bda46a94594b38d597d24874747.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 212,
+          "average_rating": 4.5
+        },
+        "prices": {
+          "mrp": "\u20b9145",
+          "discounted_price": "\u20b9135",
+          "discount": "7% off",
+          "is_cp": false,
+          "discounted_text": "7% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 158046,
+                  "sku_mrp": 145,
+                  "sku_list_price": 135,
+                  "sku_coupon_price": 122,
+                  "sku_best_price": 122
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9122</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 158046,
+                    "sku_mrp": 145,
+                    "sku_list_price": 135,
+                    "sku_coupon_price": 122,
+                    "sku_best_price": 122
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9135"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "158046",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402722
+          }
+        },
+        "ad": {
+          "uclid": "4b43b26dcac5c5fd7114064ffbd9f4d814c4a25d00d075eceb22d1003145941e6ee2f208b1c957f722232f5de0cd021b4514cbae30c88a974df00db5c718433e7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16a3fc33d0505bb6bc520736e87dbdb32743cb40a19f728d56f1e5a9ce62ac540a4e5b492bbc158e5b3427ace5d88d5f01@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 158046,
+          "mrp": 145,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "4b43b26dcac5c5fd7114064ffbd9f4d814c4a25d00d075eceb22d1003145941e6ee2f208b1c957f722232f5de0cd021b4514cbae30c88a974df00db5c718433e7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16a3fc33d0505bb6bc520736e87dbdb32743cb40a19f728d56f1e5a9ce62ac540a4e5b492bbc158e5b3427ace5d88d5f01@~v1",
+          "epoch_eta": 1770402722,
+          "position": 41,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "120367",
+        "name": "Aminofit Forte Sachet Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/aminofit-forte-sachet-sugar-free-otc120367",
+        "label": "4.5 gm Granules",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cbd1b3e4e22941ffa4f7d1d035e518e6.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 21,
+          "average_rating": 4.1
+        },
+        "prices": {
+          "mrp": "\u20b988",
+          "discounted_price": "\u20b987.2",
+          "discount": "1% off",
+          "is_cp": false,
+          "discounted_text": "1% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 120367,
+                  "sku_mrp": 88,
+                  "sku_list_price": 87.2,
+                  "sku_coupon_price": 78.5,
+                  "sku_best_price": 78.5
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b978.5</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 120367,
+                    "sku_mrp": 88,
+                    "sku_list_price": 87.2,
+                    "sku_coupon_price": 78.5,
+                    "sku_best_price": 78.5
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b987.2"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "120367",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+            "eta": 31247,
+            "eta_epoch": 1770428410
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 31247,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 120367,
+          "mrp": 88,
+          "discount_percent": 1,
+          "eta": 31247,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770428410,
+          "position": 42,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "659086",
+        "name": "Bakson's Homoeopathy Kof Aid Plus Cough Syrup Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/bakson-s-homoeopathy-kof-aid-plus-cough-syrup-sugar-free-otc659086",
+        "label": "450 ml Syrup",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/f2511504f2264fdab10a560b79dc1dd6.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 260,
+          "average_rating": 4.5
+        },
+        "prices": {
+          "mrp": "\u20b9225",
+          "discounted_price": "\u20b9200",
+          "discount": "11% off",
+          "is_cp": false,
+          "discounted_text": "11% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 659086,
+                  "sku_mrp": 225,
+                  "sku_list_price": 200,
+                  "sku_coupon_price": 180,
+                  "sku_best_price": 180
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9180</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 659086,
+                    "sku_mrp": 225,
+                    "sku_list_price": 200,
+                    "sku_coupon_price": 180,
+                    "sku_best_price": 180
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9200"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "659086",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+            "eta": 31247,
+            "eta_epoch": 1770428410
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 31247,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 659086,
+          "mrp": 225,
+          "discount_percent": 11,
+          "eta": 31247,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770428410,
+          "position": 43,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "166133",
+        "name": "Himalaya Himcocid Sugar Free Suspension| Antacid Saunf",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/himalaya-himcocid-sugar-free-suspension-antacid-saunf-otc166133",
+        "label": "200 ml Suspension",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/7b5b1bcba5ca4e9694a4c526dd1bdbbd.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tomorrow</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 126,
+          "average_rating": 4.4
+        },
+        "prices": {
+          "mrp": "\u20b9145",
+          "discounted_price": "\u20b9133",
+          "discount": "8% off",
+          "is_cp": false,
+          "discounted_text": "8% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 166133,
+                  "sku_mrp": 145,
+                  "sku_list_price": 133,
+                  "sku_coupon_price": 120,
+                  "sku_best_price": 120
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9120</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 166133,
+                    "sku_mrp": 145,
+                    "sku_list_price": 133,
+                    "sku_coupon_price": 120,
+                    "sku_best_price": 120
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9133"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "166133",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+            "eta": 31247,
+            "eta_epoch": 1770428410
+          }
+        },
+        "ad": {
+          "uclid": "9592c5087e7d9290e5ab28339c7048e6997cf1c7fbfa7852bd8751ba6a69c964cf4008352e422569263a2ca204103d55a8f19fca502e4b61473e879701ae3d2d7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16a3fc33d0505bb6bc520736e87dbdb32743cb40a19f728d56f1e5a9ce62ac540a4e5b492bbc158e5b3427ace5d88d5f01@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 31247,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 166133,
+          "mrp": 145,
+          "discount_percent": null,
+          "eta": 31247,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tomorrow",
+          "sku_sponsored": true,
+          "uclid": "9592c5087e7d9290e5ab28339c7048e6997cf1c7fbfa7852bd8751ba6a69c964cf4008352e422569263a2ca204103d55a8f19fca502e4b61473e879701ae3d2d7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16a3fc33d0505bb6bc520736e87dbdb32743cb40a19f728d56f1e5a9ce62ac540a4e5b492bbc158e5b3427ace5d88d5f01@~v1",
+          "epoch_eta": 1770428410,
+          "position": 44,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "967774",
+        "name": "Bakson's Homoeopathy Super Tonic for Men Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/bakson-s-homoeopathy-super-tonic-for-men-sugar-free-otc967774",
+        "label": "450 ml Tonic",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/1337ced811094478b901d6f99da66c37.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b9347",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 967774,
+                  "sku_mrp": 347,
+                  "sku_list_price": 347,
+                  "sku_coupon_price": 312,
+                  "sku_best_price": 312
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9312</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 967774,
+                    "sku_mrp": 347,
+                    "sku_list_price": 347,
+                    "sku_coupon_price": 312,
+                    "sku_best_price": 312
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "967774",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 315666,
+            "eta_epoch": 1770712829
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 315666,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 967774,
+          "mrp": 347,
+          "discount_percent": null,
+          "eta": 315666,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770712829,
+          "position": 45,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "517627",
+        "name": "Diovol Oral Solution Mango Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/diovol-oral-solution-mango-sugar-free-otc517627",
+        "label": "170 ml Oral Solution",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/18ad50357da549298c54e1bcf6bd4ba3.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 35,
+          "average_rating": 4.6
+        },
+        "prices": {
+          "mrp": "\u20b9171",
+          "discounted_price": "\u20b9159",
+          "discount": "7% off",
+          "is_cp": false,
+          "discounted_text": "7% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 517627,
+                  "sku_mrp": 171,
+                  "sku_list_price": 159,
+                  "sku_coupon_price": 143,
+                  "sku_best_price": 143
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9143</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 517627,
+                    "sku_mrp": 171,
+                    "sku_list_price": 159,
+                    "sku_coupon_price": 143,
+                    "sku_best_price": 143
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9159"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "517627",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 330636,
+            "eta_epoch": 1770727799
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 330636,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 517627,
+          "mrp": 170.6,
+          "discount_percent": 7,
+          "eta": 330636,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770727799,
+          "position": 46,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "878596",
+        "name": "Maharishi Ayurveda Glucomap Diabetes Management, helps Control Blood Sugar Levels",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/maharishi-ayurveda-glucomap-diabetes-management-helps-control-blood-sugar-levels-otc878596",
+        "label": "120 tablets",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/888b0a47c5e848189dde833b30685338.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 167,
+          "average_rating": 4.4
+        },
+        "prices": {
+          "mrp": "\u20b9650",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 878596,
+                  "sku_mrp": 650,
+                  "sku_list_price": 650,
+                  "sku_coupon_price": 585,
+                  "sku_best_price": 585
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9585</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 878596,
+                    "sku_mrp": 650,
+                    "sku_list_price": 650,
+                    "sku_coupon_price": 585,
+                    "sku_best_price": 585
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "878596",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 120,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 325011,
+            "eta_epoch": 1770722174
+          }
+        },
+        "ad": {
+          "uclid": "baabeea8ab0625d85f1bfab8e623f4d34e26a2a63d1fa424353b894b577b55c519f2e58144d00610ce166290eb319c66ecdbf9e0b317ab0a164e85e66b2e520a7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16cf3e2862e4aae29e08fc6de3bf444778110b025e7df0b647a498fa8885ea8f4b61a6c826b31980d92edecf7f421cd854@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 325011,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 878596,
+          "mrp": 650,
+          "discount_percent": null,
+          "eta": 325011,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": true,
+          "uclid": "baabeea8ab0625d85f1bfab8e623f4d34e26a2a63d1fa424353b894b577b55c519f2e58144d00610ce166290eb319c66ecdbf9e0b317ab0a164e85e66b2e520a7a8a5705eda8dfa6c411ba1f743e7548bc56f3450d6d563d8e5945d277331f02e9c65e978067bf2d6ce9cbbff29f3d17aab858c65d517744569d4a57a78a75b987fdce80c65aa2ec78bd6de106780a16cf3e2862e4aae29e08fc6de3bf444778110b025e7df0b647a498fa8885ea8f4b61a6c826b31980d92edecf7f421cd854@~v1",
+          "epoch_eta": 1770722174,
+          "position": 47,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "619582",
+        "name": "Basic Ayurveda Sugar Free Aloe Vera Juice with Fiber",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/basic-ayurveda-sugar-free-aloe-vera-juice-with-fiber-otc619582",
+        "label": "1 Ltr Juice",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/xzzgrzdp8qc6xrmaqqfd.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 19,
+          "average_rating": 4.4
+        },
+        "prices": {
+          "mrp": "\u20b9223",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 619582,
+                  "sku_mrp": 223,
+                  "sku_list_price": 223,
+                  "sku_coupon_price": 201,
+                  "sku_best_price": 201
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9201</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 619582,
+                    "sku_mrp": 223,
+                    "sku_list_price": 223,
+                    "sku_coupon_price": 201,
+                    "sku_best_price": 201
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "619582",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 4,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 339286,
+            "eta_epoch": 1770736449
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 339286,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 619582,
+          "mrp": 223,
+          "discount_percent": null,
+          "eta": 339286,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770736449,
+          "position": 48,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "578910",
+        "name": "Hibone-D Nano Shot Strawberry Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/drugs/hibone-d-nano-shot-strawberry-sugar-free-578910",
+        "label": "5 ml Oral Solution",
+        "image": "https://onemg.gumlet.io/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/cropped/hzzjnkhhhd5ih8blf0ty.jpg",
+        "eta": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+        "eta_info": {
+          "icon": null,
+          "text": "<span style='color:#4E5665'>Get by</span> <span style='color:#4E5665'>Tue, 10 Feb</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": null,
+        "prices": {
+          "mrp": "\u20b964.7",
+          "discounted_price": null,
+          "discount": null,
+          "is_cp": false,
+          "discounted_text": null,
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 578910,
+                  "sku_mrp": 64.7,
+                  "sku_list_price": 64.6,
+                  "sku_coupon_price": 54.9,
+                  "sku_best_price": 54.9
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b954.9</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 578910,
+                    "sku_mrp": 64.7,
+                    "sku_list_price": 64.6,
+                    "sku_coupon_price": 54.9,
+                    "sku_best_price": 54.9
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": null
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "578910",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 1,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+            "eta": 330636,
+            "eta_epoch": 1770727799
+          }
+        },
+        "ad": null,
+        "is_sponsored": false,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 330636,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 578910,
+          "mrp": 64.69,
+          "discount_percent": 0,
+          "eta": 330636,
+          "eta_text": "<span style='color:#4E5665'>Get by</span> Tue, 10 Feb",
+          "sku_sponsored": false,
+          "uclid": null,
+          "epoch_eta": 1770727799,
+          "position": 49,
+          "sku_badge_name": null
+        },
+        "sku_type": "drugs",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      },
+      {
+        "id": "822212",
+        "name": "Kofol Ayurvedic Sip Instant Kadha Sachet For Cold,Cough & Sore Throat (3gm Each) Sugar Free",
+        "tag": null,
+        "type": "sku_card",
+        "available": true,
+        "url": "/otc/kofol-ayurvedic-sip-instant-kadha-sachet-for-cold-cough-sore-throat-3gm-each-sugar-free-otc822212",
+        "label": "10 Sachets",
+        "image": "https://onemg.gumlet.io/l_watermark_346,w_380,h_380/a_ignore,w_380,h_380,c_fit,q_auto,f_auto/6061877f538f4e708e147f2ef72ecfff.jpg",
+        "eta": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+        "eta_info": {
+          "icon": "https://onemg.gumlet.io/marketing/11b3a020-ada0-40ed-ab6e-a91f3345cfee.png",
+          "text": "<span style='color:#4E5665'>Get in</span> <span style='color:#9D59A8'>45 mins</span>",
+          "left_gradient": null,
+          "right_gradient": null,
+          "linear_gradient": []
+        },
+        "ratings": {
+          "total_ratings": 129,
+          "average_rating": 4.5
+        },
+        "prices": {
+          "mrp": "\u20b9141",
+          "discounted_price": "\u20b9127",
+          "discount": "10% off",
+          "is_cp": false,
+          "discounted_text": "10% off",
+          "best_price": {
+            "type": "in_line",
+            "tags": [
+              {
+                "bg_gradient": {
+                  "start_color": "#B35682",
+                  "end_color": "#8A3059",
+                  "angle": 0
+                },
+                "mix_panel_data": {
+                  "max_depth": "1",
+                  "current_depth": "1",
+                  "discount_icon_text_shown": "order for \u20b91200",
+                  "sku_id": 822212,
+                  "sku_mrp": 141,
+                  "sku_list_price": 127,
+                  "sku_coupon_price": 114,
+                  "sku_best_price": 114
+                },
+                "right_icon": null,
+                "price_prefix": null,
+                "price_text": "<font color='#FFFFFF'>\u20b9114</font>",
+                "description": "<font color='#B1527F'>order for</font>",
+                "sub_description": "<font color='#B1527F'><b>\u20b91200</b></font>",
+                "is_cp": "false",
+                "cta": {
+                  "action": "DISCOUNTING_BOTTOM_SHEET",
+                  "mix_panel_data": {
+                    "pricing_transparency_cohort": "multi_coupon",
+                    "icon_type": "only_click",
+                    "sku_id": 822212,
+                    "sku_mrp": 141,
+                    "sku_list_price": 127,
+                    "sku_coupon_price": 114,
+                    "sku_best_price": 114
+                  }
+                }
+              }
+            ],
+            "bg_gradient": null
+          },
+          "style": "best_price",
+          "discounted_price_without_coupon": "\u20b9127"
+        },
+        "sale": null,
+        "cta": {
+          "text": "ADD",
+          "action": "ADD_TO_CART",
+          "details": {
+            "sku_id": "822212",
+            "quantity": 1
+          }
+        },
+        "quantity_info": {
+          "min": 1,
+          "max": 20,
+          "selling_quantity": 10,
+          "display_text": null,
+          "know_more": null
+        },
+        "ga_data": {
+          "info": {
+            "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+            "eta": 2700,
+            "eta_epoch": 1770402712
+          }
+        },
+        "ad": {
+          "uclid": "e72bb97bc34b097df117a9aed68b913d9d02f85d229a26ee4c8facb3678fb4486b0991d56131261fa01fc49c3c651d5521080b0594380f658f8bd3e9b362a22dec8fee66f4e1751977a6a8d24f3bfbb060c4139abe1503d3616433f3f8e3b8c3f792e262f2803c80bea2ab448128efd0b6d70f277b857649b5ff1c5981be7d2d159141cb299b4559a85c35b091c9f985ae6f874ac65886b958fdfb70a4ea32e0b21cd1466dde6e83f09ffd48e5b88c1e99cc59f3f369f9bc18d36bd13513150a4ca4c6136247db307113e6da06eafedf@~v1",
+          "tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          },
+          "ad_tag": {
+            "bg_color": "#F0F2F5",
+            "text": "Ad",
+            "border_color": "#a9a9a9",
+            "text_color": "#4E5665"
+          }
+        },
+        "is_sponsored": true,
+        "is_freebie_applicable": null,
+        "eta_in_seconds": 2700,
+        "is_coupon_applicable": true,
+        "is_combo": false,
+        "infant_foods": false,
+        "mix_panel_data": {
+          "sku_id": 822212,
+          "mrp": 140.63,
+          "discount_percent": null,
+          "eta": 2700,
+          "eta_text": "<span style='color:#4E5665'>Get in</span> 45 mins",
+          "sku_sponsored": true,
+          "uclid": "e72bb97bc34b097df117a9aed68b913d9d02f85d229a26ee4c8facb3678fb4486b0991d56131261fa01fc49c3c651d5521080b0594380f658f8bd3e9b362a22dec8fee66f4e1751977a6a8d24f3bfbb060c4139abe1503d3616433f3f8e3b8c3f792e262f2803c80bea2ab448128efd0b6d70f277b857649b5ff1c5981be7d2d159141cb299b4559a85c35b091c9f985ae6f874ac65886b958fdfb70a4ea32e0b21cd1466dde6e83f09ffd48e5b88c1e99cc59f3f369f9bc18d36bd13513150a4ca4c6136247db307113e6da06eafedf@~v1",
+          "epoch_eta": 1770402712,
+          "position": 50,
+          "sku_badge_name": null
+        },
+        "sku_type": "otc",
+        "separator": {
+          "height": 8,
+          "bg_color": "#FFFFFF",
+          "image_url": ""
+        },
+        "sku_border": true
+      }
+    ],
+    "sort": {
+      "key": "sort",
+      "values": [
+        {
+          "selected": true,
+          "key": "relevance",
+          "icon": "https://onemg.gumlet.io/marketing/5359d417-0d04-41fd-9121-d68b0bc21066.png",
+          "order": 1,
+          "name": "Relevance",
+          "default": true
+        },
+        {
+          "selected": false,
+          "key": "rating",
+          "icon": "https://onemg.gumlet.io/marketing/5359d417-0d04-41fd-9121-d68b0bc21066.png",
+          "order": 2,
+          "name": "Average customer rating",
+          "default": false
+        },
+        {
+          "selected": false,
+          "key": "price_low",
+          "icon": "https://onemg.gumlet.io/marketing/5359d417-0d04-41fd-9121-d68b0bc21066.png",
+          "order": 3,
+          "name": "Price: low to high",
+          "default": false
+        },
+        {
+          "selected": false,
+          "key": "price_high",
+          "icon": "https://onemg.gumlet.io/marketing/5359d417-0d04-41fd-9121-d68b0bc21066.png",
+          "order": 4,
+          "name": "Price: high to low",
+          "default": false
+        },
+        {
+          "selected": false,
+          "key": "discount",
+          "icon": "https://onemg.gumlet.io/marketing/5359d417-0d04-41fd-9121-d68b0bc21066.png",
+          "order": 5,
+          "name": "Discount",
+          "default": false
+        }
+      ],
+      "name": "Sort",
+      "enabled": true
+    },
+    "filter": {
+      "selected": 0,
+      "values": [],
+      "name": "All filters",
+      "enabled": true
+    },
+    "meta": {
+      "component_offset": 32,
+      "page": 1,
+      "has_more": true,
+      "per_page": 20,
+      "count": "695 results",
+      "total_record_count": 695
+    },
+    "mix_panel_data": {
+      "udp_id": 2320,
+      "category_name": "Top Picks - Diabetes Care",
+      "parent_category_id": 1,
+      "parent_category_name": "Diabetes",
+      "design_layout": "linear",
+      "rapid_toggle_cohort": "toggle_control_always_off",
+      "rapid_toggle_applicable": true,
+      "toggle_skus_with_rapid_eta": 7,
+      "rapid_toggle_state": null,
+      "category_page_cohort": "test_category_page",
+      "category_page_ranking_cohort": "test",
+      "left_panel_available": true,
+      "same_day_delivery_experiment_cohort": "control1",
+      "eta_visibility_cohort": "control1",
+      "facets_applied": null,
+      "number_of_results": null,
+      "oos_results_count": null,
+      "category_monet_indexes": null,
+      "category_oos_indexes": null,
+      "category_results_type": null,
+      "category_suggestion_skus": null,
+      "bestseller_tag_indexes": null,
+      "1mg_choice_tag_indexes": null
+    },
+    "eta_rapid_filter": null,
+    "left_panel": [
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-09%2F1725421859_CategoryTopPicks_Selected.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-09%2F1725421867_CategoryTopPick_Unselected.png",
+        "is_selected": true,
+        "name": "Top Picks - Diabetes Care",
+        "id": 2320,
+        "position": 1,
+        "url": "/categories/diabetes/top-picks-diabetes-care-2320",
+        "mix_panel_data": {
+          "category_name": "Top Picks - Diabetes Care",
+          "category_id": "2320",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 0
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247177_Blood+Glucose+Monitors.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247181_Blood+Glucose+Monitors-1.png",
+        "is_selected": false,
+        "name": "Blood Glucose Monitors",
+        "id": 151,
+        "position": 2,
+        "url": "/categories/diabetes/blood-glucose-monitors-151",
+        "mix_panel_data": {
+          "category_name": "Blood Glucose Monitors",
+          "category_id": "151",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 1
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247126_Test+Strips+%26+Lancets.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247129_Test+Strips+%26+Lancets-1.png",
+        "is_selected": false,
+        "name": "Test Strips & Lancets",
+        "id": 169,
+        "position": 3,
+        "url": "/categories/diabetes/test-strips-lancets-169",
+        "mix_panel_data": {
+          "category_name": "Test Strips & Lancets",
+          "category_id": "169",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 2
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247226_Sugar+Substitutes.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247227_Sugar+Substitutes-1.png",
+        "is_selected": false,
+        "name": "Sugar Substitutes",
+        "id": 149,
+        "position": 4,
+        "url": "/categories/diabetes/sugar-substitutes-149",
+        "mix_panel_data": {
+          "category_name": "Sugar Substitutes",
+          "category_id": "149",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 3
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246191_Diabetes+nutrition.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722246196_Diabetes+nutrition-1.png",
+        "is_selected": false,
+        "name": "Diabetes Nutrition",
+        "id": 1013,
+        "position": 5,
+        "url": "/categories/diabetes/diabetes-nutrition-1013",
+        "mix_panel_data": {
+          "category_name": "Diabetes Nutrition",
+          "category_id": "1013",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 4
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247383_Diabetes+Footwear.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1722247384_Diabetes+Footwear-1.png",
+        "is_selected": false,
+        "name": "Diabetic Footwear",
+        "id": 415,
+        "position": 6,
+        "url": "/categories/diabetes/diabetic-footwear-415",
+        "mix_panel_data": {
+          "category_name": "Diabetic Footwear",
+          "category_id": "415",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 5
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1721979179_Karela+Juice.png",
+        "unselected_image_url": "https://onemg.gumlet.io/diagnostics%2F2024-07%2F1721979181_Karela+Juice-1.png",
+        "is_selected": false,
+        "name": "Karela & Jamun Juices",
+        "id": 847,
+        "position": 7,
+        "url": "/categories/diabetes/karela-jamun-juices-847",
+        "mix_panel_data": {
+          "category_name": "Karela & Jamun Juices",
+          "category_id": "847",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 6
+        },
+        "left_panel_enabled": false
+      },
+      {
+        "selected_image_url": "https://onemg.gumlet.io/2025-05%2F1748606110_Diabetic+Foot+Creams.png",
+        "unselected_image_url": "https://onemg.gumlet.io/2025-05%2F1748606120_Diabetic+Foot+Creams.png",
+        "is_selected": false,
+        "name": "Foot Cream",
+        "id": 3698,
+        "position": 10000,
+        "url": "/categories/diabetes/foot-cream-3698",
+        "mix_panel_data": {
+          "category_name": "Foot Cream",
+          "category_id": "3698",
+          "page_name": "category_page",
+          "parent_category_id": "",
+          "parent_category_name": "",
+          "position": 7
+        },
+        "left_panel_enabled": false
+      }
+    ],
+    "selected_bg_color": "#ffffff",
+    "scroll_indicator": "#A84473",
+    "unselected_bg_color": "#F0F2F5",
+    "url": "diabetes/top-picks-diabetes-care",
+    "app_download_bottomsheet": {
+      "mix_panel_data": {
+        "cohort": "tcp"
+      }
+    },
+    "app_download_nudge": {
+      "mix_panel_data": {
+        "cohort": "tcp"
+      }
+    },
+    "breadcrumbs": null,
+    "seo_data": null,
+    "facets": [],
+    "common_mix_panel_data": {
+      "udp_id": 2320,
+      "category_name": "Top Picks - Diabetes Care",
+      "parent_category_id": 1,
+      "parent_category_name": "Diabetes",
+      "design_layout": "linear"
+    },
+    "design_layout": "linear"
+  },
+  "partial_complete": false,
+  "is_success": true,
+  "status_code": 200
+}

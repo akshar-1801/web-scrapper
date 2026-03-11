@@ -1,4 +1,5 @@
 # Scrapy settings for price_tracker project
+import os
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -102,7 +103,7 @@ PLAYWRIGHT_LAUNCH_OPTIONS = {
 # Set settings whose default value is deprecated to a future-proof value
 FEED_EXPORT_ENCODING = "utf-8"
 # MinIO / S3 Configuration
-AWS_ENDPOINT_URL = 'http://minio:9000' # Internal Docker URL
+AWS_ENDPOINT_URL = os.getenv('AWS_ENDPOINT_URL', 'http://minio:9000') # Internal Docker URL
 AWS_ACCESS_KEY_ID = 'minio_admin'
 AWS_SECRET_ACCESS_KEY = 'minio_password'
 AWS_REGION_NAME = 'us-east-1' # MinIO ignores this, but boto3 requires it
